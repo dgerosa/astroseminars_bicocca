@@ -17,14 +17,17 @@ def fetch_events():
 
 def update_readme():
     events = fetch_events()
-    # sort reverse-chronological: latest first
     events_sorted = sorted(events, key=lambda e: e.begin, reverse=True)
 
     readme_path = "README.md"
     with open(readme_path) as f:
         content = f.read()
-    start = content.find("<!-- EVENTS_START -->")
-    end = content.find("<!-- EVENTS_END -->")
+
+    marker_start = "<!-- EVENTS_START -->"
+    marker_end = "<!-- EVENTS_END -->"
+
+    start = content.find(marker_start)
+    end = content.find(marker_end)
     if start == -1 or end == -1:
         raise ValueError("Missing markers in README")
 
@@ -36,10 +39,12 @@ def update_readme():
 
     new_content = (
         content[:start]
-        + "<!-- EVENTS_START -->\n"
+        + marker_start
+        + "\n"
         + new_section
-        + "\n<!-- EVENTS_END -->"
-        + content[end + 15 :]
+        + "\n"
+        + marker_end
+        + content[end + len(marker_end) :]
     )
 
     with open(readme_path, "w") as f:
