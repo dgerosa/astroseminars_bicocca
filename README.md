@@ -1,4 +1,5 @@
-## Upcoming Events
+## Astroseminars @Milano-Bicocca
+
 <!-- EVENTS_START -->
 - 2025-10-02 11:30: [Seminar] Yu-Ling Chang
 - 2025-09-25 11:30: [Seminar] Elisa Maggio
@@ -260,4 +261,4 @@
 - 2021-10-28 12:00: [Seminar] Sirio Belli (Harvard)
 - 2021-10-21 12:00: [Seminar] Stefano Rinaldi (Pisa): Binary Black Hole mass distribution, the non-parametric way
 - 2021-10-14 12:00: [Seminar] Martina Toscani (Milan Statale -> Toulouse): Catching black holes with tidal disruption events
-<!-- EVENTS_END --> --> -->
+<!-- EVENTS_END --> -->
