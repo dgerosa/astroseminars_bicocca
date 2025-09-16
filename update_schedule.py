@@ -3,11 +3,20 @@ import sys
 import requests
 from ics import Calendar
 from datetime import datetime, timedelta, timezone
-#import smtplib
-#from email.mime.text import MIMEText
+import smtplib
+from email.mime.text import MIMEText
 
 ICS_URL = "https://calendar.google.com/calendar/ical/9csetts22iqc0iduial5obme3g%40group.calendar.google.com/public/basic.ics"
-EMAIL_TO = os.getenv("EMAIL_TO")
+EMAIL_TO = "rodrigo.tenorio@unimib.it"
+EMAIL_FROM = "astrobicocca.bot@gmail.com"
+EMAIL_REPLY = "astroseminars-organizers-groups@unimib.it"
+
+print(
+"Email settings:\n",
+f"TO: {EMAIL_TO}\n",
+f"FROM: {EMAIL_FROM}\n",
+f"REPLY-TO: {EMAIL_REPLY}\n",
+)
 
 def fetch_events():
     r = requests.get(ICS_URL)
@@ -57,13 +66,14 @@ def upcoming_events(days=7):
 
 def send_email(subject, body):
     msg = MIMEText(body)
-    msg["From"] = os.getenv("SMTP_USER")
+    msg["From"] = EMAIL_FROM
     msg["To"] = EMAIL_TO
+    msg["Reply-To"] = EMAIL_REPLY
     msg["Subject"] = subject
-    with smtplib.SMTP(os.getenv("SMTP_SERVER"), int(os.getenv("SMTP_PORT"))) as server:
+    with smtplib.SMTP("smtp.gmail.com", 587) as server:
         server.starttls()
-        server.login(os.getenv("SMTP_USER"), os.getenv("SMTP_PASS"))
-        server.sendmail(os.getenv("SMTP_USER"), [EMAIL_TO], msg.as_string())
+        server.login(EMAIL_FROM, os.getenv("SMTP_PASS"))
+        server.sendmail(EMAIL_FROM, [EMAIL_TO], msg.as_string())
 
 if __name__ == "__main__":
     mode=sys.argv[1]
@@ -75,6 +85,7 @@ if __name__ == "__main__":
         body = "\n".join(
             [f"{e.begin.format('YYYY-MM-DD HH:mm')}: {e.name}" for e in events]
         ) or "No events next week."
+        print(body)
         send_email("Weekly Calendar Summary", body)
 
     elif mode == "daily":
@@ -85,6 +96,7 @@ if __name__ == "__main__":
             body = "\n".join(
                 [f"{e.begin.format('YYYY-MM-DD HH:mm')}: {e.name}" for e in todays_events]
             )
+            print(body)
             send_email("Today's Events", body)
 
     elif mode == "readme":
