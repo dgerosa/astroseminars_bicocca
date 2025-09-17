@@ -134,8 +134,8 @@ if mode == "daily":
     else:
         print("No events today. No email sent.")
 
-    if mode == "readme":
-        update_readme()
+if mode == "readme":
+    update_readme()
 
 
 

@@ -5,6 +5,7 @@
 - 2025-10-02 11:30: [Seminar] Yu-Ling Chang
 - 2025-09-25 11:30: [Seminar] Elisa Maggio
 - 2025-09-22 11:30: [AstroCoffe]
+- 2025-09-17 16:00: [Seminar] This is a test calendar entry, not a real seminar
 - 2025-09-08 11:30: [AstroCoffee]
 - 2025-09-05 11:30: [Seminar] Gabriele Montefusco
 - 2025-07-21 11:30: [Seminar] Valerio de Luca
@@ -80,8 +81,8 @@
 - 2024-06-27 11:30: [Seminar] Kevin Wolz 
 - 2024-06-20 11:30: [Seminar] Jam Sadiq
 - 2024-06-13 11:30: [Seminar] Jasbir Singh
-- 2024-06-10 11:30: [Seminar] Bin Ren
 - 2024-06-10 11:30: Astrocoffee
+- 2024-06-10 11:30: [Seminar] Bin Ren
 - 2024-06-06 11:30: [Seminar] Fabrizio Arrigoni Battaia
 - 2024-06-03 11:30: [Seminar] Jia Liu
 - 2024-05-30 11:30: [DEI Session] Federica Cavezzoni
