@@ -20,10 +20,11 @@ print(
     f"REPLY-TO: {EMAIL_REPLY}\n",
 )
 
-footer ="<br>See you there!<br>Astroseminars organizers<br>"
-footer+="<br><i>Our seminar schedule is available at: https://calendar.google.com/calendar/embed?src=9csetts22iqc0iduial5obme3g%40group.calendar.google.com&ctz=Europe%2FRome</i>"
-footer+="<br><i>Replies to this address are not monitored, you can contact us at astroseminars-organizers-groups@unimib.it</i>"
-
+footer ="<br>See you there!"
+footer2="<br>Astroseminars organizers"
+footer2+="<br><br><i>Our seminar schedule is available at: https://calendar.google.com/calendar/embed?src=9csetts22iqc0iduial5obme3g%40group.calendar.google.com&ctz=Europe%2FRome</i>"
+footer2+="<br><i>Replies to this address are not monitored, you can contact us at astroseminars-organizers-groups@unimib.it</i>"
+footer+=footer2
 
 def fetch_events():
     r = requests.get(ICS_URL)
@@ -114,7 +115,7 @@ if mode == "weekly":
             +"<br><hr>"+footer
         )
     else:
-        body = "Hi all,<br><br>No events next week."
+        body = "Hi all,<br><br>No events next week."+footer2
     print(body)
     send_email("[Astroseminars] Next week's events", body)
 
