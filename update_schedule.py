@@ -5,24 +5,28 @@ from ics import Calendar
 from datetime import datetime, timedelta, timezone
 import smtplib
 from email.mime.text import MIMEText
+import pytz
 
 ICS_URL = "https://calendar.google.com/calendar/ical/9csetts22iqc0iduial5obme3g%40group.calendar.google.com/public/basic.ics"
-EMAIL_TO = "rodrigo.tenorio@unimib.it"
+EMAIL_TO = ["davide.gerosa@unimib.it", "doesnotexist@unimib.it"]  # Change to astroall and astrovisitors
 EMAIL_FROM = "astrobicocca.bot@gmail.com"
 EMAIL_REPLY = "astroseminars-organizers-groups@unimib.it"
+ROME_TZ = pytz.timezone("Europe/Rome")
 
 print(
-"Email settings:\n",
-f"TO: {EMAIL_TO}\n",
-f"FROM: {EMAIL_FROM}\n",
-f"REPLY-TO: {EMAIL_REPLY}\n",
+    "Email settings:\n",
+    f"TO: {EMAIL_TO}\n",
+    f"FROM: {EMAIL_FROM}\n",
+    f"REPLY-TO: {EMAIL_REPLY}\n",
 )
+
 
 def fetch_events():
     r = requests.get(ICS_URL)
     r.raise_for_status()
     c = Calendar(r.text)
     return list(c.timeline)
+
 
 def update_readme():
     events = fetch_events()
@@ -41,8 +45,7 @@ def update_readme():
         raise ValueError("Missing markers in README")
 
     lines = [
-        f"- {ev.begin.format('YYYY-MM-DD HH:mm')}: {ev.name}"
-        for ev in events_sorted
+        f"- {ev.begin.format('YYYY-MM-DD HH:mm')}: {ev.name}" for ev in events_sorted
     ]
     new_section = "\n".join(lines) if lines else "_No events in calendar_"
 
@@ -59,45 +62,77 @@ def update_readme():
     with open(readme_path, "w") as f:
         f.write(new_content)
 
+
 def upcoming_events(days=7):
     now = datetime.now(timezone.utc)
     end = now + timedelta(days=days)
-    return [e for e in fetch_events() if e.begin >= now and e.begin <= end]
+    return [e for e in fetch_events() if now <= e.begin <= end]
+
+
+def format_event(e):
+    local_dt = e.begin.astimezone(ROME_TZ)
+    date_str = local_dt.strftime("%-d %B %Y, %-I:%M %p").lower()  # e.g. 1 January 2025, 8:30 am
+    return (
+        f"<p><b>{date_str}</b><br><br>"
+        f"<b>{e.name}</b><br>"
+        f"{e.location or ''}<br><br>"
+        f"{e.description or ''}</p>"
+    )
 
 def send_email(subject, body):
-    msg = MIMEText(body)
+    msg = MIMEText(body, "html")  # send as HTML
     msg["From"] = EMAIL_FROM
-    msg["To"] = EMAIL_TO
+    msg["To"] = EMAIL_REPLY
+    msg["Bcc"] = "; ".join(EMAIL_TO)
     msg["Reply-To"] = EMAIL_REPLY
     msg["Subject"] = subject
     with smtplib.SMTP("smtp.gmail.com", 587) as server:
         server.starttls()
         server.login(EMAIL_FROM, os.getenv("SMTP_PASS"))
-        server.sendmail(EMAIL_FROM, [EMAIL_TO], msg.as_string())
+        server.sendmail(EMAIL_FROM, EMAIL_TO, msg.as_string())
+
 
 if __name__ == "__main__":
-    mode=sys.argv[1]
-    #mode = os.getenv("MODE")
+    mode = sys.argv[1]
     now = datetime.now(timezone.utc)
 
-    if mode == "weekly":
-        events = upcoming_events(days=7)
-        body = "\n".join(
-            [f"{e.begin.format('YYYY-MM-DD HH:mm')}: {e.name}" for e in events]
-        ) or "No events next week."
+if mode == "weekly":
+    events = upcoming_events(days=7)
+    if events:
+        body = (
+            "Hi all,<br><br>"
+            "here are the astrobicocca events happening next week:<br><br><hr>"
+            + "<hr><br>".join([format_event(e) for e in events])
+            +"<hr><br>See you there!<br>Astroseminars organizers"
+            +"<br><i>[Replies to this address are not monitored, you can contact us at astroseminars-organizers-groups@unimib.it]</i>"
+        )
+    else:
+        body = "Hi all,<br><br>No events next week."
+    print(body)
+    send_email("[Astroseminars] Next week's events", body)
+
+if mode == "daily":
+    today = now.astimezone(ROME_TZ).date()
+    events = upcoming_events(days=1)
+    todays_events = [e for e in events if e.begin.astimezone(ROME_TZ).date() == today]
+    if todays_events:
+        body = (
+            "Hi all,<br><br>"
+            "here is a reminder of the astrobicocca event happening today:<br><br><hr>"
+            + "<hr>".join([format_event(e) for e in todays_events])
+            +"<hr><br>See you there!<br>Astroseminars organizers"
+            +"<br><i>[Replies to this address are not monitored, you can contact us at astroseminars-organizers-groups@unimib.it]</i>"
+        )
         print(body)
-        send_email("Weekly Calendar Summary", body)
+        send_email("[Astroseminars] Today's events", body)
+    else:
+        print("No events today. No email sent.")
 
-    elif mode == "daily":
-        today = now.date()
-        events = upcoming_events(days=1)
-        todays_events = [e for e in events if e.begin.date() == today]
-        if todays_events:
-            body = "\n".join(
-                [f"{e.begin.format('YYYY-MM-DD HH:mm')}: {e.name}" for e in todays_events]
-            )
-            print(body)
-            send_email("Today's Events", body)
-
-    elif mode == "readme":
+    if mode == "readme":
         update_readme()
+
+
+
+
+
+
