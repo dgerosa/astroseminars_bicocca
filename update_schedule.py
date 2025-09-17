@@ -20,7 +20,7 @@ print(
     f"REPLY-TO: {EMAIL_REPLY}\n",
 )
 
-footer ="See you there!<br>Astroseminars organizers<br>"
+footer ="<br>See you there!<br>Astroseminars organizers<br>"
 footer+="<br><i>Our seminar schedule is available at: https://calendar.google.com/calendar/embed?src=9csetts22iqc0iduial5obme3g%40group.calendar.google.com&ctz=Europe%2FRome</i>"
 footer+="<br><i>Replies to this address are not monitored, you can contact us at astroseminars-organizers-groups@unimib.it</i>"
 
