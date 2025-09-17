@@ -1,0 +1,39 @@
+name: Astroseminars Weekly
+
+on:
+  schedule:
+    # Weekly run Friday at 19:00 Rome (18:00 UTC)
+    - cron: "0 18 * * 5"
+  workflow_dispatch:  # manual trigger
+
+jobs:
+  weekly-update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # allow committing README updates
+    env:
+      SMTP_PASS: ${{ secrets.SMTP_PASS }}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests ics pytz
+
+      - name: Run weekly script and update README
+        run: |
+          python update_schedule.py weekly
+          python update_schedule.py readme
+
+      - name: Commit and push README
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update README with latest events"
+          git push
