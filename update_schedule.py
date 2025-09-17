@@ -20,6 +20,10 @@ print(
     f"REPLY-TO: {EMAIL_REPLY}\n",
 )
 
+footer ="See you there!<br>Astroseminars organizers<br>"
+footer+="<br><i>Our seminar schedule is available at: https://calendar.google.com/calendar/embed?src=9csetts22iqc0iduial5obme3g%40group.calendar.google.com&ctz=Europe%2FRome</i>"
+footer+="<br><i>Replies to this address are not monitored, you can contact us at astroseminars-organizers-groups@unimib.it</i>"
+
 
 def fetch_events():
     r = requests.get(ICS_URL)
@@ -72,12 +76,16 @@ def upcoming_events(days=7):
 def format_event(e):
     local_dt = e.begin.astimezone(ROME_TZ)
     date_str = local_dt.strftime("%-d %B %Y, %-I:%M %p").lower()  # e.g. 1 January 2025, 8:30 am
-    return (
-        f"<p><b>{date_str}</b><br><br>"
-        f"<b>{e.name}</b><br>"
-        f"{e.location or ''}<br><br>"
-        f"{e.description or ''}</p>"
-    )
+    parts = [
+        f"<p><b>{date_str}</b><br>",
+        f"<b>{e.name}</b><br><br>",
+    ]
+    if e.location:  # only add location if not empty
+        parts.append(f"{e.location}<br><br>")
+    if e.description:  # only add description if not empty
+        parts.append(f"{e.description}")
+    parts.append("</p>")
+    return "".join(parts)
 
 def send_email(subject, body):
     msg = MIMEText(body, "html")  # send as HTML
@@ -102,9 +110,8 @@ if mode == "weekly":
         body = (
             "Hi all,<br><br>"
             "here are the astrobicocca events happening next week:<br><br><hr>"
-            + "<hr><br>".join([format_event(e) for e in events])
-            +"<hr><br>See you there!<br>Astroseminars organizers"
-            +"<br><i>[Replies to this address are not monitored, you can contact us at astroseminars-organizers-groups@unimib.it]</i>"
+            + "<br><hr>".join([format_event(e) for e in events])
+            +"<br><hr>"+footer
         )
     else:
         body = "Hi all,<br><br>No events next week."
@@ -118,10 +125,9 @@ if mode == "daily":
     if todays_events:
         body = (
             "Hi all,<br><br>"
-            "here is a reminder of the astrobicocca event happening today:<br><br><hr>"
+            "here is a reminder of the astrobicocca event(s) happening today:<br><br><hr>"
             + "<hr>".join([format_event(e) for e in todays_events])
-            +"<hr><br>See you there!<br>Astroseminars organizers"
-            +"<br><i>[Replies to this address are not monitored, you can contact us at astroseminars-organizers-groups@unimib.it]</i>"
+            +"<hr>"+footer
         )
         print(body)
         send_email("[Astroseminars] Today's events", body)
