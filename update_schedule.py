@@ -105,7 +105,7 @@ if __name__ == "__main__":
     now = datetime.now(timezone.utc)
 
 if mode == "weekly":
-    events = upcoming_events(days=7)
+    events = upcoming_events(days=8)
     if events:
         body = (
             "Hi all,<br><br>"
