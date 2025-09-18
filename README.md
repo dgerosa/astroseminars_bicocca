@@ -4,8 +4,8 @@
 - 2025-11-13 00:00: Dr. R.Chandramouli, from SISSA
 - 2025-10-02 11:30: [Seminar] Yu-Ling Chang
 - 2025-09-25 11:30: [Seminar] Elisa Maggio
-- 2025-09-24 16:00: [Seminar] This is a test calendar entry, not a real seminar
 - 2025-09-22 11:30: [AstroCoffe]
+- 2025-09-18 10:30: [Seminar] This is a test calendar entry, not a real seminar
 - 2025-09-08 11:30: [AstroCoffee]
 - 2025-09-05 11:30: [Seminar] Gabriele Montefusco
 - 2025-07-21 11:30: [Seminar] Valerio de Luca
