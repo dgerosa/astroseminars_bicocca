@@ -264,3 +264,14 @@
 - 2021-10-21 12:00: [Seminar] Stefano Rinaldi (Pisa): Binary Black Hole mass distribution, the non-parametric way
 - 2021-10-14 12:00: [Seminar] Martina Toscani (Milan Statale -> Toulouse): Catching black holes with tidal disruption events
 <!-- EVENTS_END -->
+
+
+
+
+## Cronjob instructions
+
+```
+* 5 * * * export SMTP_PASS="xxxxxxxxx"; /usr/bin/python /home/dgerosa/astroseminars_bicocca/update_schedule.py daily > /home/dgerosa/dailycron.log 2>&1
+0 17 * * 5 export SMTP_PASS="xxxxxxxxx"; /usr/bin/python /home/dgerosa/astroseminars_bicocca/update_schedule.py weekly > /home/dgerosa/weeklycron.log 2>&1
+```
+where xxxxxxxxx is the app password of the astrobicocca.bot Google account.
