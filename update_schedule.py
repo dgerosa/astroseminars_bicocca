@@ -8,7 +8,7 @@ from email.mime.text import MIMEText
 import pytz
 
 ICS_URL = "https://calendar.google.com/calendar/ical/9csetts22iqc0iduial5obme3g%40group.calendar.google.com/public/basic.ics"
-EMAIL_TO = ["davide.gerosa@unimib.it", "astroseminars-organizers-groups@unimib.it"]#, "rodrigo.tenorio@unimib.it", "gabriele.coppi@unimib.it", "luca.broggi@unimib.it", "nicolas.ledos@unimib.it"]  # Change to astroall and astrovisitors
+EMAIL_TO = ["davide.gerosa@unimib.it"]#, "rodrigo.tenorio@unimib.it", "gabriele.coppi@unimib.it", "luca.broggi@unimib.it", "nicolas.ledos@unimib.it"]  # Change to astroall and astrovisitors
 EMAIL_FROM = "astrobicocca.bot@gmail.com"
 EMAIL_REPLY = "astroseminars-organizers-groups@unimib.it"
 ROME_TZ = pytz.timezone("Europe/Rome")
