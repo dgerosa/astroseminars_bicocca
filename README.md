@@ -1,4 +1,23 @@
-## Astroseminars @Milano-Bicocca
+## Astroseminars_bicocca
+
+This is a bot that sends automatic seminar announcements to the Astrophysics group at the University of Milano-Bicocca.
+
+The script fetches data from [our shared calendar](https://calendar.google.com/calendar/embed?src=9csetts22iqc0iduial5obme3g%40group.calendar.google.com&ctz=Europe%2FRome). An email password needs to be stored in an environment variable called `SMTP_PASS`. For Gmail, this should be an app password, not the google account password
+
+- `python update_schedule.py daily`: check if a calendar entry is present for today, and if so, send a reminder email.
+- `python update_schedule.py weekly`: send an email with a summary of next week's events.
+- `python update_schedule.py readme`: update the readme on this page.
+
+The bot is deployed on an external virtual machine, with the following crontab instructions:
+```
+0 5 * * * export SMTP_PASS="xxxxxxxxx"; /usr/bin/python /home/dgerosa/astroseminars_bicocca/update_schedule.py daily > /home/dgerosa/cron.log 2>&1
+0 17 * * 5 export SMTP_PASS="xxxxxxxxx"; /usr/bin/python /home/dgerosa/astroseminars_bicocca/update_schedule.py weekly > /home/dgerosa/cron.log 2>&1
+```
+
+Emails can also be triggered manually on [github](https://github.com/dgerosa/astroseminars_bicocca). Go to "Actions", select the workflow on the left, and then "Run workflow". 
+
+
+## Calendar event list
 
 <!-- EVENTS_START -->
 - 2025-11-13 00:00: Dr. R.Chandramouli, from SISSA
@@ -268,10 +287,4 @@
 
 
 
-## Cronjob instructions
 
-```
-0 5 * * * export SMTP_PASS="xxxxxxxxx"; /usr/bin/python /home/dgerosa/astroseminars_bicocca/update_schedule.py daily > /home/dgerosa/cron.log 2>&1
-0 17 * * 5 export SMTP_PASS="xxxxxxxxx"; /usr/bin/python /home/dgerosa/astroseminars_bicocca/update_schedule.py weekly > /home/dgerosa/cron.log 2>&1
-```
-where `xxxxxxxxx` is an app password (not the actual account password) of `astrobicocca.bot@gmail.com`. 
