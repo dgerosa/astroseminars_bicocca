@@ -84,7 +84,7 @@ def format_event(e):
     if e.location:  # only add location if not empty
         parts.append(f"{e.location}<br><br>")
     if e.description:  # only add description if not empty
-        parts.append(f"{e.description}")
+        parts.append(f"{e.description}".replace("\n", "<br>"))
     parts.append("</p>")
     return "".join(parts)
 
@@ -127,7 +127,7 @@ if mode == "daily":
         body = (
             "Hi all,<br><br>"
             "here is a reminder of the astrobicocca event(s) happening today:<br><br><hr>"
-            + "<hr>".join([format_event(e).replace("\n", "<br>") for e in todays_events])
+            + "<hr>".join([format_event(e) for e in todays_events])
             +"<hr>"+footer
         )
         print(body)
