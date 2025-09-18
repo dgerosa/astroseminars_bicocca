@@ -127,7 +127,7 @@ if mode == "daily":
         body = (
             "Hi all,<br><br>"
             "here is a reminder of the astrobicocca event(s) happening today:<br><br><hr>"
-            + "<hr>".join([format_event(e) for e in todays_events])
+            + "<hr>".join([format_event(e).replace("\n", "<br>") for e in todays_events])
             +"<hr>"+footer
         )
         print(body)
