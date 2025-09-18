@@ -274,4 +274,4 @@
 0 5 * * * export SMTP_PASS="xxxxxxxxx"; /usr/bin/python /home/dgerosa/astroseminars_bicocca/update_schedule.py daily > /home/dgerosa/cron.log 2>&1
 0 17 * * 5 export SMTP_PASS="xxxxxxxxx"; /usr/bin/python /home/dgerosa/astroseminars_bicocca/update_schedule.py weekly > /home/dgerosa/cron.log 2>&1
 ```
-where xxxxxxxxx is the app password of the astrobicocca.bot Google account.
+where `xxxxxxxxx` is an app password (not the actual account password) of `astrobicocca.bot@gmail.com`. 
