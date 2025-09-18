@@ -2,9 +2,8 @@ name: Astroseminars Daily
 
 on:
   schedule:
-    # Daily run at 07:00 Rome (06:00 UTC)
     - cron: "*/5 * * * *"
-  workflow_dispatch:  # manual trigger
+  workflow_dispatch:
 
 jobs:
   daily-update:
