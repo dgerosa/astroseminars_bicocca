@@ -2,11 +2,13 @@
 
 This is a bot that sends automatic seminar announcements to the Astrophysics group at the University of Milano-Bicocca.
 
-The script fetches data from [our shared calendar](https://calendar.google.com/calendar/embed?src=9csetts22iqc0iduial5obme3g%40group.calendar.google.com&ctz=Europe%2FRome). There's a dedicated gmail account called `astrobicocca.bot@gmail.com`; an app password needs to be stored in an environment variable called `SMTP_PASS` (this should be an app password, not the  account password).
+The script fetches data from [our shared calendar](https://calendar.google.com/calendar/embed?src=9csetts22iqc0iduial5obme3g%40group.calendar.google.com&ctz=Europe%2FRome). Usage:
 
 - `python update_schedule.py daily`: check if a calendar entry is present for today, and if so, send a reminder email.
 - `python update_schedule.py weekly`: send an email with a summary of next week's events.
 - `python update_schedule.py readme`: update the readme on this page.
+
+Emails come from a dedicated gmail account called `astrobicocca.bot@gmail.com`; an app password needs to be stored in an environment variable called `SMTP_PASS` (this should be an app password, not the  account password).
 
 The bot is deployed on an external virtual machine, with the following crontab instructions:
 ```
