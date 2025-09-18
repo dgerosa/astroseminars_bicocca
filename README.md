@@ -271,7 +271,7 @@
 ## Cronjob instructions
 
 ```
-* 5 * * * export SMTP_PASS="xxxxxxxxx"; /usr/bin/python /home/dgerosa/astroseminars_bicocca/update_schedule.py daily > /home/dgerosa/dailycron.log 2>&1
-0 17 * * 5 export SMTP_PASS="xxxxxxxxx"; /usr/bin/python /home/dgerosa/astroseminars_bicocca/update_schedule.py weekly > /home/dgerosa/weeklycron.log 2>&1
+0 5 * * * export SMTP_PASS="yhlv njnu vvyk guxx"; /usr/bin/python /home/dgerosa/astroseminars_bicocca/update_schedule.py daily > /home/dgerosa/cron.log 2>&1
+0 17 * * 5 export SMTP_PASS="yhlv njnu vvyk guxx"; /usr/bin/python /home/dgerosa/astroseminars_bicocca/update_schedule.py weekly > /home/dgerosa/cron.log 2>&1
 ```
 where xxxxxxxxx is the app password of the astrobicocca.bot Google account.
