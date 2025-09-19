@@ -1,11 +1,32 @@
-## Astroseminars @Milano-Bicocca
+## Astroseminars_bicocca
+
+This is a bot that sends automatic seminar announcements to the Astrophysics group at the University of Milano-Bicocca.
+
+The script fetches data from [our shared calendar](https://calendar.google.com/calendar/embed?src=9csetts22iqc0iduial5obme3g%40group.calendar.google.com&ctz=Europe%2FRome). Usage:
+
+- `python update_schedule.py daily`: check if a calendar entry is present for today, and if so, send a reminder email.
+- `python update_schedule.py weekly`: send an email with a summary of next week's events.
+- `python update_schedule.py readme`: update the readme on this page.
+
+Emails come from a dedicated gmail account called `astrobicocca.bot@gmail.com`; an app password needs to be stored in an environment variable called `SMTP_PASS` (this should be an app password, not the  account password).
+
+The bot is deployed on an external virtual machine, with the following crontab instructions:
+```
+0 5 * * * export SMTP_PASS="xxxxxxxxx"; /usr/bin/python /home/dgerosa/astroseminars_bicocca/update_schedule.py daily > /home/dgerosa/cron.log 2>&1
+0 17 * * 5 export SMTP_PASS="xxxxxxxxx"; /usr/bin/python /home/dgerosa/astroseminars_bicocca/update_schedule.py weekly > /home/dgerosa/cron.log 2>&1
+```
+
+Emails can also be triggered manually on [github](https://github.com/dgerosa/astroseminars_bicocca). Go to "Actions", select the workflow on the left, and then "Run workflow". 
+
+
+## Calendar event list
 
 <!-- EVENTS_START -->
 - 2025-11-13 00:00: Dr. R.Chandramouli, from SISSA
 - 2025-10-02 11:30: [Seminar] Yu-Ling Chang
 - 2025-09-25 11:30: [Seminar] Elisa Maggio
-- 2025-09-22 11:30: [AstroCoffe]
-- 2025-09-18 10:30: [Seminar] This is a test calendar entry, not a real seminar
+- 2025-09-22 11:30: [AstroCoffe] Biancamaria Sersante
+- 2025-09-19 16:00: [Seminar] This is a test calendar entry, not a real seminar
 - 2025-09-08 11:30: [AstroCoffee]
 - 2025-09-05 11:30: [Seminar] Gabriele Montefusco
 - 2025-07-21 11:30: [Seminar] Valerio de Luca
@@ -268,10 +289,4 @@
 
 
 
-## Cronjob instructions
 
-```
-0 5 * * * export SMTP_PASS="xxxxxxxxx"; /usr/bin/python /home/dgerosa/astroseminars_bicocca/update_schedule.py daily > /home/dgerosa/cron.log 2>&1
-0 17 * * 5 export SMTP_PASS="xxxxxxxxx"; /usr/bin/python /home/dgerosa/astroseminars_bicocca/update_schedule.py weekly > /home/dgerosa/cron.log 2>&1
-```
-where `xxxxxxxxx` is an app password (not the actual account password) of `astrobicocca.bot@gmail.com`. 
