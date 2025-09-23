@@ -22,9 +22,9 @@ Emails can also be triggered manually on [github](https://github.com/dgerosa/ast
 ## Calendar event list
 
 <!-- EVENTS_START -->
+- 2025-11-20 12:30: [Seminar] Elisa Maggio
 - 2025-11-13 12:30: [Seminar] Rohit Chandramouli
 - 2025-10-02 11:30: [Seminar] Yu-Ling Chang
-- 2025-09-25 11:30: [Seminar] Elisa Maggio
 - 2025-09-22 11:30: [AstroCoffe] Biancamaria Sersante
 - 2025-09-08 11:30: [AstroCoffee]
 - 2025-09-05 11:30: [Seminar] Gabriele Montefusco
