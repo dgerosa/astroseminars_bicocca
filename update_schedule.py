@@ -8,10 +8,16 @@ from email.mime.text import MIMEText
 import pytz
 
 ICS_URL = "https://calendar.google.com/calendar/ical/9csetts22iqc0iduial5obme3g%40group.calendar.google.com/public/basic.ics"
-EMAIL_TO = ["astroall-groups@unimib.it","astrovisitor-groups@unimib.it"]
-#EMAIL_TO = ["davide.gerosa@unimib.it"] # Debug
 EMAIL_FROM = "astrobicocca.bot@gmail.com"
+
+
+EMAIL_TO = ["astroall-groups@unimib.it","astrovisitor-groups@unimib.it"]
 EMAIL_REPLY = "astroseminars-organizers-groups@unimib.it"
+
+#Debug
+#EMAIL_TO = ["davide.gerosa@unimib.it"] 
+#EMAIL_REPLY = "davide.gerosa@unimib.it"
+
 ROME_TZ = pytz.timezone("Europe/Rome")
 
 print(
@@ -77,7 +83,9 @@ def upcoming_events(days=7):
 
 def format_event(e):
     local_dt = e.begin.astimezone(ROME_TZ)
-    date_str = local_dt.strftime("%-d %B %Y, %-I:%M %p").lower()  # e.g. 1 January 2025, 8:30 am
+    #date_str = local_dt.strftime("%-d %B %Y, %-I:%M %p").lower()  # e.g. 1 January 2025, 8:30 am
+    date_str = local_dt.strftime("%A, %-d %B, %-I:%M %p")
+    date_str = date_str[:-2] + date_str[-2:].lower()
     parts = [
         f"<p><b>{date_str}</b><br>",
         f"<b>{e.name}</b><br><br>",
