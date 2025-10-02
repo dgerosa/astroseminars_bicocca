@@ -27,6 +27,7 @@ Emails can also be triggered manually on [github](https://github.com/dgerosa/ast
 - 2025-11-13 12:30: [Seminar] Rohit Chandramouli
 - 2025-10-16 11:30: [Seminar] Alessandro Trinca
 - 2025-10-13 11:30: [AstroCoffee] Lorenzo Bertassi
+- 2025-10-09 11:30: [Seminar] Lorenzo Pizzuti
 - 2025-10-02 11:30: [Seminar] Yu-Ling Chang
 - 2025-09-22 11:30: [AstroCoffe] Biancamaria Sersante
 - 2025-09-08 11:30: [AstroCoffee]
