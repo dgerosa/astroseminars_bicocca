@@ -28,6 +28,7 @@ Emails can also be triggered manually on [github](https://github.com/dgerosa/ast
 - 2025-11-27 12:30: [Short Seminar] El Mehdi Zahraoui
 - 2025-11-20 12:30: [Seminar] Elisa Maggio
 - 2025-11-13 12:30: [Seminar] Rohit Chandramouli
+- 2025-11-10 12:30: [Seminar]
 - 2025-10-30 12:30: [seminar] Federico Cacciotti
 - 2025-10-23 11:30: [Short-Seminar] Huiyang Mao
 - 2025-10-16 11:30: [Seminar] Alessandro Trinca
