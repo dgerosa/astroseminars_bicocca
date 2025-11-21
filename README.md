@@ -27,6 +27,7 @@ Emails can also be triggered manually on [github](https://github.com/dgerosa/ast
 - 2026-01-22 12:30: Seminar Jan Harms
 - 2026-01-08 12:30: Seminar
 - 2025-12-12 12:30: [Seminar] Paolo Pani
+- 2025-12-04 08:00: AstroCareer Day
 - 2025-11-27 12:30: [Short Seminar] El Mehdi Zahraoui
 - 2025-11-20 12:30: [Seminar] Elisa Maggio
 - 2025-11-17 12:30: [AstroCoffee] Giada Quadri
