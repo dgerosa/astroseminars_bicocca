@@ -24,8 +24,9 @@ Emails can also be triggered manually on [github](https://github.com/dgerosa/ast
 <!-- EVENTS_START -->
 - 2026-03-19 12:30: [Seminar] Tiago Costa
 - 2026-03-05 12:30: [Seminar] Daniel Thomas
-- 2026-02-05 12:30: Seminar: Jose María Ezquiaga
-- 2026-02-02 12:30: Seminar:
+- 2026-02-12 12:30: [Seminar] Keita Fukushima
+- 2026-02-05 12:30: [Seminar] Jose María Ezquiaga
+- 2026-02-02 12:30: [Seminar] Domenico Logoteta
 - 2026-01-22 12:30: [Seminar] Jan Harms
 - 2026-01-15 12:30: [Seminar] Alexandre Pombo
 - 2026-01-08 12:30: [Seminar] Chris Byrohl
@@ -117,8 +118,8 @@ Emails can also be triggered manually on [github](https://github.com/dgerosa/ast
 - 2024-06-27 11:30: [Seminar] Kevin Wolz 
 - 2024-06-20 11:30: [Seminar] Jam Sadiq
 - 2024-06-13 11:30: [Seminar] Jasbir Singh
-- 2024-06-10 11:30: Astrocoffee
 - 2024-06-10 11:30: [Seminar] Bin Ren
+- 2024-06-10 11:30: Astrocoffee
 - 2024-06-06 11:30: [Seminar] Fabrizio Arrigoni Battaia
 - 2024-06-03 11:30: [Seminar] Jia Liu
 - 2024-05-30 11:30: [DEI Session] Federica Cavezzoni
