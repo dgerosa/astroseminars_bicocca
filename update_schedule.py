@@ -56,9 +56,16 @@ def update_readme():
     if start == -1 or end == -1:
         raise ValueError("Missing markers in README")
 
+    # lines = [
+    #     f"- {ev.begin.format('YYYY-MM-DD HH:mm')}: {ev.name}" for ev in events_sorted
+    # ]
+
     lines = [
-        f"- {ev.begin.format('YYYY-MM-DD HH:mm')}: {ev.name}" for ev in events_sorted
+        f"- {ev.begin.astimezone(ROME_TZ).strftime('%Y-%m-%d %H:%M')}: {ev.name}"
+        for ev in events_sorted
     ]
+
+
     new_section = "\n".join(lines) if lines else "_No events in calendar_"
 
     new_content = (

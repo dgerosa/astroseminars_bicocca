@@ -22,284 +22,284 @@ Emails can also be triggered manually on [github](https://github.com/dgerosa/ast
 ## Calendar event list
 
 <!-- EVENTS_START -->
-- 2026-03-19 12:30: [Seminar] Tiago Costa
-- 2026-03-05 12:30: [Seminar] Daniel Thomas
-- 2026-02-12 12:30: [Seminar] Keita Fukushima
-- 2026-02-05 12:30: [Seminar] Jose María Ezquiaga
-- 2026-02-02 12:30: [Seminar] Domenico Logoteta
-- 2026-01-22 12:30: [Seminar] Jan Harms
-- 2026-01-15 12:30: [Seminar] Alexandre Pombo
-- 2026-01-08 12:30: [Seminar] Chris Byrohl
-- 2025-12-12 12:30: [Seminar] Paolo Pani
-- 2025-12-04 08:00: AstroCareer Day
-- 2025-11-20 12:30: [Seminar] Elisa Maggio
-- 2025-11-17 12:30: [AstroCoffee] Giada Quadri
-- 2025-11-13 12:30: [Seminar] Rohit Chandramouli
-- 2025-11-10 12:30: [Seminar] Ana Lorenzo-Medina
-- 2025-10-30 12:30: [seminar] Federico Cacciotti
-- 2025-10-23 11:30: [Short-Seminar] Huiyang Mao
-- 2025-10-16 11:30: [Seminar] Alessandro Trinca
-- 2025-10-13 11:30: [AstroCoffee] Lorenzo Bertassi
-- 2025-10-09 11:30: [Seminar] Lorenzo Pizzuti
-- 2025-10-02 11:30: [Seminar] Yu-Ling Chang
-- 2025-09-22 11:30: [AstroCoffe] Biancamaria Sersante
-- 2025-09-08 11:30: [AstroCoffee]
-- 2025-09-05 11:30: [Seminar] Gabriele Montefusco
-- 2025-07-21 11:30: [Seminar] Valerio de Luca
-- 2025-07-08 11:30: [Seminar] Jordan Moncrieff (UWA)
-- 2025-07-03 11:30: [Seminar] Nico Cappelluti
-- 2025-06-25 11:30: [Seminar] Jakob Stegmann (MPA Garching)
-- 2025-06-19 11:30: [Seminar] Maria Chiara De Simone
-- 2025-06-05 11:30: [Seminar] Matteo Messa
-- 2025-05-30 11:30: [Seminar] James Alvey
-- 2025-05-27 11:30: [Seminar] Prof. Lyman Page
-- 2025-05-19 11:30: AstroCoffee
-- 2025-05-15 11:30: [Seminar] Bence Becsy
-- 2025-05-14 11:30: [Astrocoffee] Hippolyte Quelquejay
-- 2025-05-05 11:30: [Seminar] Lucy McNeill
-- 2025-04-28 11:30: [Seminar] Ellis Owen
-- 2025-04-24 11:30: [Seminar] Pantelis Pnigouras
-- 2025-04-22 11:30: [Seminar] Aleksandra Olejak
-- 2025-04-17 11:30: [AstroSeminar] Zoltan Haiman
-- 2025-04-14 11:30: [AstroCoffee] Federico Re
-- 2025-04-10 11:30: [AstroSeminar] Ilaria Caporali
-- 2025-04-07 11:30: AstroCoffee
-- 2025-04-03 11:30: [AstroSeminar] Michela Esposito
-- 2025-03-31 11:00: [(Double)Seminar] Hideki Umehata & Yuichi Matsuda
-- 2025-03-27 12:30: [Seminar] Daisuke Toyouchi
-- 2025-03-24 12:30: AstroCoffee
-- 2025-03-21 12:30: [Seminar]  Fabrizio Fiore
-- 2025-03-17 12:30: AstroCoffee
-- 2025-03-13 12:30: [AstroSeminar] Lorenzo Pompili
-- 2025-03-07 12:30: [AstroSeminar] Patrick Meyers
-- 2025-02-27 12:30: [Seminar] Angela Borchers Pascual
-- 2025-02-20 12:30: [Seminar] Pascal Oesch
-- 2025-02-17 12:30: AstroCoffee
-- 2025-02-13 12:30: [AstroSeminar] Francisco Duque
-- 2025-02-10 12:30: AstroCoffee
-- 2025-02-06 12:30: [Seminar] Cecilia Sgalletta
-- 2025-02-03 12:30: AstroCoffee
-- 2025-01-28 12:30: [Seminar] Stephen Green
-- 2025-01-27 12:30: [Seminar] Jonathan Tan
-- 2025-01-23 12:30: [Seminar] Michele Ginolfi
-- 2025-01-20 12:30: AstroCoffee
-- 2025-01-16 12:30: [AstroSeminar] Dominika Wylezalek
-- 2025-01-09 12:30: [AstroSeminar] Raphael Errani
-- 2024-12-19 12:30: [Seminar] Stefano Borgani
-- 2024-12-16 14:30: Christmas movie afternoon!
-- 2024-12-16 12:30: AstroCoffee
-- 2024-12-12 12:30: [Seminar] Shmuel Gilbaum
-- 2024-12-09 12:30: AstroCoffee
-- 2024-12-06 12:30: [Seminar] Robert Rosati
-- 2024-12-02 12:30: Astro(Coffee+Seminar)
-- 2024-11-28 12:30: [Seminar] Simone Mastrogiovanni
-- 2024-11-25 12:30: AstroCoffee
-- 2024-11-21 12:30: [Seminar] Guglielmo Mastroserio
-- 2024-11-14 12:30: [Seminar] Debora Sijaki
-- 2024-11-11 12:30: Special Astrocoffee
-- 2024-11-04 12:30: Astrocoffee
-- 2024-10-28 12:30: Astrocoffee
-- 2024-10-24 12:00: [ShortSeminar] Sayak Dutta
-- 2024-10-24 11:30: [ShortSeminar] Eshita Banerjee
-- 2024-10-21 11:30: Astrocoffee
-- 2024-10-17 11:30: [Seminar] Alessandro Bartoloni
-- 2024-10-14 11:30: [Seminar] Stefanos Tsiopelas
-- 2024-10-10 11:30: [Seminar] Stefania Salvadori
-- 2024-10-07 11:30: Astrocoffee
-- 2024-09-30 07:00: Department-wide research event
-- 2024-09-26 11:30: [Seminar] Alessandro Trani
-- 2024-09-09 12:00: [ShortSeminar] Ellis Owen
-- 2024-09-09 11:30: [ShortSeminar] Purnima Narayan
-- 2024-09-05 11:30: [Seminar] Nader Khonji 
-- 2024-07-19 11:30: [Seminar] Kostas Kritos
-- 2024-07-08 11:30: [Seminar] Bruno Martin Celiz
-- 2024-07-05 11:30: [Seminar] Rossella Gamba
-- 2024-07-01 11:30: [ShortSeminars] Daniele Sorini + Abhishek Chowdhuri
-- 2024-06-27 11:30: [Seminar] Kevin Wolz 
-- 2024-06-20 11:30: [Seminar] Jam Sadiq
-- 2024-06-13 11:30: [Seminar] Jasbir Singh
-- 2024-06-10 11:30: Astrocoffee
-- 2024-06-10 11:30: [Seminar] Bin Ren
-- 2024-06-06 11:30: [Seminar] Fabrizio Arrigoni Battaia
-- 2024-06-03 11:30: [Seminar] Jia Liu
-- 2024-05-30 11:30: [DEI Session] Federica Cavezzoni
-- 2024-05-23 11:30: [Seminar] Nir Mandelker
-- 2024-05-20 11:30: Astrocoffee
-- 2024-05-16 11:30: [Seminar] Julio Navarro
-- 2024-05-13 11:30: Astrocoffee
-- 2024-05-09 11:30: [DEI session] Federica Cavazzoni et al. 
-- 2024-05-02 11:30: [Seminar] Manuela Campanelli [room U1-06 ]
-- 2024-04-29 11:30: Astrocoffee
-- 2024-04-22 11:30: Astrocoffee
-- 2024-04-15 11:30: Astrocoffee
-- 2024-04-11 11:30: [CANCELLED] Stefania Salvadori
-- 2024-04-08 11:30: Astrocoffee
-- 2024-04-04 11:30: [Seminar] Valeryia Korol
-- 2024-03-28 12:30: [Seminar] Fabio Vito
-- 2024-03-25 12:30: Astro(short)seminar
-- 2024-03-21 12:30: [Seminar] Yokoyama
-- 2024-03-18 12:30: Astrocoffee
-- 2024-03-14 12:30: [Seminar] Daniela Galarraga-Espinosa
-- 2024-03-11 12:30: Astrocoffee
-- 2024-03-07 12:30: [Seminar] Stefano Covino
-- 2024-03-04 12:30: Astrocoffee
-- 2024-02-29 12:30: [Seminar] Robin Croft
-- 2024-02-26 12:30: Astrocoffee
-- 2024-02-22 12:30: [Seminar] Matteo Viel
-- 2024-02-19 12:30: Astro(coffee+seminar)
-- 2024-02-15 12:30: [Seminar] Manuela Bischetti
-- 2024-02-12 12:30: Astrocoffee
-- 2024-02-08 12:30: [Seminar] Luca Di Mascolo
-- 2024-02-06 12:30: [Seminar] Victor Forouhar Moreno
-- 2024-02-01 12:30: [Seminar] Shuang Zhou
-- 2024-01-30 12:30: [Seminar] Helmut Dannerbauer
-- 2024-01-25 12:30: [Seminar] Stefano Camera
-- 2024-01-23 12:30: Astrocoffee
-- 2024-01-18 12:30: [Seminar] Jonas El Gammal
-- 2024-01-16 12:30: [Seminar] Daisuke Toyouchi
-- 2024-01-11 12:30: [Seminar] Mattia Sormani
+- 2026-03-19 13:30: [Seminar] Tiago Costa
+- 2026-03-05 13:30: [Seminar] Daniel Thomas
+- 2026-02-12 13:30: [Seminar] Keita Fukushima
+- 2026-02-05 13:30: [Seminar] Jose María Ezquiaga
+- 2026-02-02 13:30: [Seminar] Domenico Logoteta
+- 2026-01-22 13:30: [Seminar] Jan Harms
+- 2026-01-15 13:30: [Seminar] Alexandre Pombo
+- 2026-01-08 13:30: [Seminar] Chris Byrohl
+- 2025-12-12 13:30: [Seminar] Paolo Pani
+- 2025-12-04 09:00: AstroCareer Day
+- 2025-11-20 13:30: [Seminar] Elisa Maggio
+- 2025-11-17 13:30: [AstroCoffee] Giada Quadri
+- 2025-11-13 13:30: [Seminar] Rohit Chandramouli
+- 2025-11-10 13:30: [Seminar] Ana Lorenzo-Medina
+- 2025-10-30 13:30: [seminar] Federico Cacciotti
+- 2025-10-23 13:30: [Short-Seminar] Huiyang Mao
+- 2025-10-16 13:30: [Seminar] Alessandro Trinca
+- 2025-10-13 13:30: [AstroCoffee] Lorenzo Bertassi
+- 2025-10-09 13:30: [Seminar] Lorenzo Pizzuti
+- 2025-10-02 13:30: [Seminar] Yu-Ling Chang
+- 2025-09-22 13:30: [AstroCoffe] Biancamaria Sersante
+- 2025-09-08 13:30: [AstroCoffee]
+- 2025-09-05 13:30: [Seminar] Gabriele Montefusco
+- 2025-07-21 13:30: [Seminar] Valerio de Luca
+- 2025-07-08 13:30: [Seminar] Jordan Moncrieff (UWA)
+- 2025-07-03 13:30: [Seminar] Nico Cappelluti
+- 2025-06-25 13:30: [Seminar] Jakob Stegmann (MPA Garching)
+- 2025-06-19 13:30: [Seminar] Maria Chiara De Simone
+- 2025-06-05 13:30: [Seminar] Matteo Messa
+- 2025-05-30 13:30: [Seminar] James Alvey
+- 2025-05-27 13:30: [Seminar] Prof. Lyman Page
+- 2025-05-19 13:30: AstroCoffee
+- 2025-05-15 13:30: [Seminar] Bence Becsy
+- 2025-05-14 13:30: [Astrocoffee] Hippolyte Quelquejay
+- 2025-05-05 13:30: [Seminar] Lucy McNeill
+- 2025-04-28 13:30: [Seminar] Ellis Owen
+- 2025-04-24 13:30: [Seminar] Pantelis Pnigouras
+- 2025-04-22 13:30: [Seminar] Aleksandra Olejak
+- 2025-04-17 13:30: [AstroSeminar] Zoltan Haiman
+- 2025-04-14 13:30: [AstroCoffee] Federico Re
+- 2025-04-10 13:30: [AstroSeminar] Ilaria Caporali
+- 2025-04-07 13:30: AstroCoffee
+- 2025-04-03 13:30: [AstroSeminar] Michela Esposito
+- 2025-03-31 13:00: [(Double)Seminar] Hideki Umehata & Yuichi Matsuda
+- 2025-03-27 13:30: [Seminar] Daisuke Toyouchi
+- 2025-03-24 13:30: AstroCoffee
+- 2025-03-21 13:30: [Seminar]  Fabrizio Fiore
+- 2025-03-17 13:30: AstroCoffee
+- 2025-03-13 13:30: [AstroSeminar] Lorenzo Pompili
+- 2025-03-07 13:30: [AstroSeminar] Patrick Meyers
+- 2025-02-27 13:30: [Seminar] Angela Borchers Pascual
+- 2025-02-20 13:30: [Seminar] Pascal Oesch
+- 2025-02-17 13:30: AstroCoffee
+- 2025-02-13 13:30: [AstroSeminar] Francisco Duque
+- 2025-02-10 13:30: AstroCoffee
+- 2025-02-06 13:30: [Seminar] Cecilia Sgalletta
+- 2025-02-03 13:30: AstroCoffee
+- 2025-01-28 13:30: [Seminar] Stephen Green
+- 2025-01-27 13:30: [Seminar] Jonathan Tan
+- 2025-01-23 13:30: [Seminar] Michele Ginolfi
+- 2025-01-20 13:30: AstroCoffee
+- 2025-01-16 13:30: [AstroSeminar] Dominika Wylezalek
+- 2025-01-09 13:30: [AstroSeminar] Raphael Errani
+- 2024-12-19 13:30: [Seminar] Stefano Borgani
+- 2024-12-16 15:30: Christmas movie afternoon!
+- 2024-12-16 13:30: AstroCoffee
+- 2024-12-12 13:30: [Seminar] Shmuel Gilbaum
+- 2024-12-09 13:30: AstroCoffee
+- 2024-12-06 13:30: [Seminar] Robert Rosati
+- 2024-12-02 13:30: Astro(Coffee+Seminar)
+- 2024-11-28 13:30: [Seminar] Simone Mastrogiovanni
+- 2024-11-25 13:30: AstroCoffee
+- 2024-11-21 13:30: [Seminar] Guglielmo Mastroserio
+- 2024-11-14 13:30: [Seminar] Debora Sijaki
+- 2024-11-11 13:30: Special Astrocoffee
+- 2024-11-04 13:30: Astrocoffee
+- 2024-10-28 13:30: Astrocoffee
+- 2024-10-24 14:00: [ShortSeminar] Sayak Dutta
+- 2024-10-24 13:30: [ShortSeminar] Eshita Banerjee
+- 2024-10-21 13:30: Astrocoffee
+- 2024-10-17 13:30: [Seminar] Alessandro Bartoloni
+- 2024-10-14 13:30: [Seminar] Stefanos Tsiopelas
+- 2024-10-10 13:30: [Seminar] Stefania Salvadori
+- 2024-10-07 13:30: Astrocoffee
+- 2024-09-30 09:00: Department-wide research event
+- 2024-09-26 13:30: [Seminar] Alessandro Trani
+- 2024-09-09 14:00: [ShortSeminar] Ellis Owen
+- 2024-09-09 13:30: [ShortSeminar] Purnima Narayan
+- 2024-09-05 13:30: [Seminar] Nader Khonji 
+- 2024-07-19 13:30: [Seminar] Kostas Kritos
+- 2024-07-08 13:30: [Seminar] Bruno Martin Celiz
+- 2024-07-05 13:30: [Seminar] Rossella Gamba
+- 2024-07-01 13:30: [ShortSeminars] Daniele Sorini + Abhishek Chowdhuri
+- 2024-06-27 13:30: [Seminar] Kevin Wolz 
+- 2024-06-20 13:30: [Seminar] Jam Sadiq
+- 2024-06-13 13:30: [Seminar] Jasbir Singh
+- 2024-06-10 13:30: [Seminar] Bin Ren
+- 2024-06-10 13:30: Astrocoffee
+- 2024-06-06 13:30: [Seminar] Fabrizio Arrigoni Battaia
+- 2024-06-03 13:30: [Seminar] Jia Liu
+- 2024-05-30 13:30: [DEI Session] Federica Cavezzoni
+- 2024-05-23 13:30: [Seminar] Nir Mandelker
+- 2024-05-20 13:30: Astrocoffee
+- 2024-05-16 13:30: [Seminar] Julio Navarro
+- 2024-05-13 13:30: Astrocoffee
+- 2024-05-09 13:30: [DEI session] Federica Cavazzoni et al. 
+- 2024-05-02 13:30: [Seminar] Manuela Campanelli [room U1-06 ]
+- 2024-04-29 13:30: Astrocoffee
+- 2024-04-22 13:30: Astrocoffee
+- 2024-04-15 13:30: Astrocoffee
+- 2024-04-11 13:30: [CANCELLED] Stefania Salvadori
+- 2024-04-08 13:30: Astrocoffee
+- 2024-04-04 13:30: [Seminar] Valeryia Korol
+- 2024-03-28 13:30: [Seminar] Fabio Vito
+- 2024-03-25 13:30: Astro(short)seminar
+- 2024-03-21 13:30: [Seminar] Yokoyama
+- 2024-03-18 13:30: Astrocoffee
+- 2024-03-14 13:30: [Seminar] Daniela Galarraga-Espinosa
+- 2024-03-11 13:30: Astrocoffee
+- 2024-03-07 13:30: [Seminar] Stefano Covino
+- 2024-03-04 13:30: Astrocoffee
+- 2024-02-29 13:30: [Seminar] Robin Croft
+- 2024-02-26 13:30: Astrocoffee
+- 2024-02-22 13:30: [Seminar] Matteo Viel
+- 2024-02-19 13:30: Astro(coffee+seminar)
+- 2024-02-15 13:30: [Seminar] Manuela Bischetti
+- 2024-02-12 13:30: Astrocoffee
+- 2024-02-08 13:30: [Seminar] Luca Di Mascolo
+- 2024-02-06 13:30: [Seminar] Victor Forouhar Moreno
+- 2024-02-01 13:30: [Seminar] Shuang Zhou
+- 2024-01-30 13:30: [Seminar] Helmut Dannerbauer
+- 2024-01-25 13:30: [Seminar] Stefano Camera
+- 2024-01-23 13:30: Astrocoffee
+- 2024-01-18 13:30: [Seminar] Jonas El Gammal
+- 2024-01-16 13:30: [Seminar] Daisuke Toyouchi
+- 2024-01-11 13:30: [Seminar] Mattia Sormani
 - 2023-12-19 13:30: AstroCoffe
-- 2023-12-18 12:30: Special seminar - Gutcke & Farina
-- 2023-12-15 12:30: [Seminar] Claudio Grillo 
+- 2023-12-18 13:30: Special seminar - Gutcke & Farina
+- 2023-12-15 13:30: [Seminar] Claudio Grillo 
 - 2023-12-12 13:30: AstroCoffe
-- 2023-12-11 12:30: [Seminar] Walter Del Pozzo
-- 2023-12-04 12:30: [Seminar] Thomas Baumgarte
-- 2023-11-30 12:30: [Seminar] Hannah Übler
-- 2023-11-28 12:30: [Seminar] Ruari Mackenzie
-- 2023-11-27 13:45: Astrochat (for PhD students)
-- 2023-11-27 12:30: [Seminar] Elias Kammoun
-- 2023-11-23 12:30: [Seminar] Alexandre Toubiana
+- 2023-12-11 13:30: [Seminar] Walter Del Pozzo
+- 2023-12-04 13:30: [Seminar] Thomas Baumgarte
+- 2023-11-30 13:30: [Seminar] Hannah Übler
+- 2023-11-28 13:30: [Seminar] Ruari Mackenzie
+- 2023-11-27 14:45: Astrochat (for PhD students)
+- 2023-11-27 13:30: [Seminar] Elias Kammoun
+- 2023-11-23 13:30: [Seminar] Alexandre Toubiana
 - 2023-11-21 13:30: AstroCoffe
-- 2023-11-17 12:30: [Seminar] Ilya Mandel
-- 2023-11-16 12:30: [Seminar] Stefan Gillessen
-- 2023-11-14 12:30: [Seminar] Giovanni Sabatini
-- 2023-11-10 12:30: [Seminar] Bill Weber
+- 2023-11-17 13:30: [Seminar] Ilya Mandel
+- 2023-11-16 13:30: [Seminar] Stefan Gillessen
+- 2023-11-14 13:30: [Seminar] Giovanni Sabatini
+- 2023-11-10 13:30: [Seminar] Bill Weber
 - 2023-11-07 13:30: AstroCoffe
-- 2023-11-02 12:30: [Seminar] Freeke van de Voort
-- 2023-10-31 12:30: [Seminar] Giulia Capurri
-- 2023-10-26 11:30: [Seminar] Enrico Barausse
-- 2023-10-23 11:30: [Seminar] Jarle Brinchmann
-- 2023-10-19 11:30: [Seminar] Cristiano Longarini
-- 2023-10-17 11:30: AstroCoffe
-- 2023-10-12 11:30: [Seminar] Francesco Muia
+- 2023-11-02 13:30: [Seminar] Freeke van de Voort
+- 2023-10-31 13:30: [Seminar] Giulia Capurri
+- 2023-10-26 13:30: [Seminar] Enrico Barausse
+- 2023-10-23 13:30: [Seminar] Jarle Brinchmann
+- 2023-10-19 13:30: [Seminar] Cristiano Longarini
+- 2023-10-17 13:30: AstroCoffe
+- 2023-10-12 13:30: [Seminar] Francesco Muia
 - 2023-10-10 13:30: Astro climate survey report
-- 2023-10-05 11:30: [Seminar] Antonio Jr. Iovino
+- 2023-10-05 13:30: [Seminar] Antonio Jr. Iovino
 - 2023-10-03 13:30: AstroCoffe
 - 2023-10-03 13:30: AstroCoffe
-- 2023-09-28 11:30: [Seminar] Masaru Shibata
-- 2023-09-27 09:30: [Bicoq seminar] Kentaro Nagamine
-- 2023-09-25 11:30: [Seminar] Tijmen de Haan
-- 2023-09-21 11:30: [Seminar] MUSE meeting guests TBC
-- 2023-07-17 11:30: [Seminar] Carlo Cannarozzo
-- 2023-07-13 11:30: [Seminar] Tom Theuns (Durham University)
-- 2023-07-06 11:30: [Seminar] Lena Arhtur
-- 2023-06-29 11:30: [Seminar] Tousif Islam
-- 2023-06-22 11:30: [Seminar] Sowgat Muzahid
-- 2023-06-15 11:30: [Seminar] Samuel Tootle
-- 2023-06-08 11:30: [Seminar] Seok-Jun Chang
-- 2023-06-01 11:30: [Seminar] Franco Vazza
-- 2023-05-25 11:30: [Seminar] Astrid Lamberts
-- 2023-05-18 11:30: [Seminar] Janna (Jay) Goldstein
-- 2023-05-11 11:30: [Seminar] Matteo Bregonzio (room U1-12)
-- 2023-05-04 11:30: [Seminar] Giovanni Rosotti (Statale)
-- 2023-04-26 14:00: [Seminar] Dylan Nelson (Univ. of Heidelberg)
-- 2023-04-13 11:30: [Seminar] Tommaso Tabarelli
-- 2023-03-30 11:30: [Seminar] Gabriella De Lucia
-- 2023-03-23 12:30: [Seminar] Patricio Avila
-- 2023-03-16 12:30: [Seminar] Nick Loutrel (Rome)
-- 2023-03-09 12:30: [Seminar] Francesco Tombesi
-- 2023-03-06 12:30: [Seminar] Roberto Decarli
-- 2023-03-02 12:30: [Seminar] Xavier Roca Maza
-- 2023-02-16 12:30: [Seminar] Alberto Mangiagli
-- 2023-02-09 12:30: [Seminar] Eliot Finch
-- 2023-02-02 12:30: [Seminar] Daryl Haggard
-- 2023-01-26 12:30: [Seminar] Francesco Iacovelli
-- 2023-01-19 12:30: [Seminar] Beta Lusso
-- 2023-01-12 12:30: [Seminar] Mahsa Kohandel
-- 2022-12-22 12:30: Panettone together and Monica's celebration
-- 2022-12-15 12:30: [Seminar] Tim Dietrich (Potsdam)
-- 2022-12-01 12:30: [Seminar] Lieke van Son (Harvard)
-- 2022-11-24 12:30: [Seminar] Clement Bonnerot (Copenhagen)
-- 2022-11-21 12:30: [Seminars] Stefano Bovino
-- 2022-11-18 12:30: [Seminars] Swetha Baghwat
-- 2022-11-17 12:30: [Seminars] Duncan Neill
-- 2022-11-14 12:30: [Seminars] Francesco Salvestrini
-- 2022-11-10 12:30: [Seminars] Marco Nardini (ENI)
-- 2022-11-03 12:30: [Seminars] Elena Sarpa
-- 2022-10-27 11:30: [Seminar] Margherita Giustini, Riccardo Arcodia
-- 2022-10-26 11:30: Demystifying the Astro job market...
-- 2022-10-20 11:30: [Seminar] Chris Moore (Birmingham)
-- 2022-10-13 11:30: [Seminar] Benedetta Spina (Bonn)
+- 2023-09-28 13:30: [Seminar] Masaru Shibata
+- 2023-09-27 11:30: [Bicoq seminar] Kentaro Nagamine
+- 2023-09-25 13:30: [Seminar] Tijmen de Haan
+- 2023-09-21 13:30: [Seminar] MUSE meeting guests TBC
+- 2023-07-17 13:30: [Seminar] Carlo Cannarozzo
+- 2023-07-13 13:30: [Seminar] Tom Theuns (Durham University)
+- 2023-07-06 13:30: [Seminar] Lena Arhtur
+- 2023-06-29 13:30: [Seminar] Tousif Islam
+- 2023-06-22 13:30: [Seminar] Sowgat Muzahid
+- 2023-06-15 13:30: [Seminar] Samuel Tootle
+- 2023-06-08 13:30: [Seminar] Seok-Jun Chang
+- 2023-06-01 13:30: [Seminar] Franco Vazza
+- 2023-05-25 13:30: [Seminar] Astrid Lamberts
+- 2023-05-18 13:30: [Seminar] Janna (Jay) Goldstein
+- 2023-05-11 13:30: [Seminar] Matteo Bregonzio (room U1-12)
+- 2023-05-04 13:30: [Seminar] Giovanni Rosotti (Statale)
+- 2023-04-26 16:00: [Seminar] Dylan Nelson (Univ. of Heidelberg)
+- 2023-04-13 13:30: [Seminar] Tommaso Tabarelli
+- 2023-03-30 13:30: [Seminar] Gabriella De Lucia
+- 2023-03-23 13:30: [Seminar] Patricio Avila
+- 2023-03-16 13:30: [Seminar] Nick Loutrel (Rome)
+- 2023-03-09 13:30: [Seminar] Francesco Tombesi
+- 2023-03-06 13:30: [Seminar] Roberto Decarli
+- 2023-03-02 13:30: [Seminar] Xavier Roca Maza
+- 2023-02-16 13:30: [Seminar] Alberto Mangiagli
+- 2023-02-09 13:30: [Seminar] Eliot Finch
+- 2023-02-02 13:30: [Seminar] Daryl Haggard
+- 2023-01-26 13:30: [Seminar] Francesco Iacovelli
+- 2023-01-19 13:30: [Seminar] Beta Lusso
+- 2023-01-12 13:30: [Seminar] Mahsa Kohandel
+- 2022-12-22 13:30: Panettone together and Monica's celebration
+- 2022-12-15 13:30: [Seminar] Tim Dietrich (Potsdam)
+- 2022-12-01 13:30: [Seminar] Lieke van Son (Harvard)
+- 2022-11-24 13:30: [Seminar] Clement Bonnerot (Copenhagen)
+- 2022-11-21 13:30: [Seminars] Stefano Bovino
+- 2022-11-18 13:30: [Seminars] Swetha Baghwat
+- 2022-11-17 13:30: [Seminars] Duncan Neill
+- 2022-11-14 13:30: [Seminars] Francesco Salvestrini
+- 2022-11-10 13:30: [Seminars] Marco Nardini (ENI)
+- 2022-11-03 13:30: [Seminars] Elena Sarpa
+- 2022-10-27 13:30: [Seminar] Margherita Giustini, Riccardo Arcodia
+- 2022-10-26 13:30: Demystifying the Astro job market...
+- 2022-10-20 13:30: [Seminar] Chris Moore (Birmingham)
+- 2022-10-13 13:30: [Seminar] Benedetta Spina (Bonn)
 - 2022-10-10 13:30: Astrocoffee
-- 2022-10-06 11:30: [Seminar] Camilla Pianta (Padova)
-- 2022-09-30 11:30: [Seminar] Sebastiano Von Fellenberg
-- 2022-09-29 11:30: [Seminar] James Angthopo
-- 2022-09-26 11:30: [Seminar] Anuradha Samajdar (Potsdam)
-- 2022-09-22 11:30: [Seminar] Filippo Santoliquido (Padova)
-- 2022-09-16 11:30: [Seminar] Gabriele Perna (Padova)
-- 2022-09-09 11:30: [Seminar] Odelia Teboul (Jerusalem)
-- 2022-09-08 14:00: [Seminar] Nick Stone (Jerusalem)
-- 2022-09-08 09:30: [Colloquium] Piero Madau (USC Santa Cruz)
-- 2022-07-07 11:30: [Seminar] Matteo Fossati and Mario Zannoni (Bicocca): the new telescope!
-- 2022-07-01 08:15: Telescope inauguration and seminar by Carlos Frenk  
-- 2022-06-30 11:30: [Seminar] Carlos Frenk (Durham)
-- 2022-06-28 11:30: [Seminar] Andrea Maccio' (New York University /Abu Dhabi)
-- 2022-06-27 13:00: [Seminar] Gabriele Bozzola (Arizona University)
-- 2022-06-23 11:30: [Seminar] Andrea Maselli (GSSI)
-- 2022-06-20 13:30: [Seminar] Sara Saracino (Liverpool, UK)
-- 2022-06-20 11:30: [Seminar] Roberto Cotesta (Johns Hopkins University)
-- 2022-06-16 11:30: [Seminar] Hayley Macpherson
-- 2022-06-13 11:30: [Seminar] Rosalba Perna
-- 2022-06-09 11:30: [Seminars] Vijay Varma  (AEI Potsdam)
-- 2022-05-30 11:30: [Special seminar] Sofia Fatigoni (University of British Columbia)
-- 2022-05-26 11:30: [Seminar] Alice Concas (ESO)
-- 2022-05-23 11:30: [Seminar] Paritosh Verma
-- 2022-05-19 11:30: [Seminar] Ignasi Perez Rafols
-- 2022-05-12 11:30: [Seminar] Luigi Guzzo (Milano Statale)
-- 2022-05-09 11:30: [Seminar] Lucy Strang (Melbourne, Australia)
+- 2022-10-06 13:30: [Seminar] Camilla Pianta (Padova)
+- 2022-09-30 13:30: [Seminar] Sebastiano Von Fellenberg
+- 2022-09-29 13:30: [Seminar] James Angthopo
+- 2022-09-26 13:30: [Seminar] Anuradha Samajdar (Potsdam)
+- 2022-09-22 13:30: [Seminar] Filippo Santoliquido (Padova)
+- 2022-09-16 13:30: [Seminar] Gabriele Perna (Padova)
+- 2022-09-09 13:30: [Seminar] Odelia Teboul (Jerusalem)
+- 2022-09-08 16:00: [Seminar] Nick Stone (Jerusalem)
+- 2022-09-08 11:30: [Colloquium] Piero Madau (USC Santa Cruz)
+- 2022-07-07 13:30: [Seminar] Matteo Fossati and Mario Zannoni (Bicocca): the new telescope!
+- 2022-07-01 10:15: Telescope inauguration and seminar by Carlos Frenk  
+- 2022-06-30 13:30: [Seminar] Carlos Frenk (Durham)
+- 2022-06-28 13:30: [Seminar] Andrea Maccio' (New York University /Abu Dhabi)
+- 2022-06-27 15:00: [Seminar] Gabriele Bozzola (Arizona University)
+- 2022-06-23 13:30: [Seminar] Andrea Maselli (GSSI)
+- 2022-06-20 15:30: [Seminar] Sara Saracino (Liverpool, UK)
+- 2022-06-20 13:30: [Seminar] Roberto Cotesta (Johns Hopkins University)
+- 2022-06-16 13:30: [Seminar] Hayley Macpherson
+- 2022-06-13 13:30: [Seminar] Rosalba Perna
+- 2022-06-09 13:30: [Seminars] Vijay Varma  (AEI Potsdam)
+- 2022-05-30 13:30: [Special seminar] Sofia Fatigoni (University of British Columbia)
+- 2022-05-26 13:30: [Seminar] Alice Concas (ESO)
+- 2022-05-23 13:30: [Seminar] Paritosh Verma
+- 2022-05-19 13:30: [Seminar] Ignasi Perez Rafols
+- 2022-05-12 13:30: [Seminar] Luigi Guzzo (Milano Statale)
+- 2022-05-09 13:30: [Seminar] Lucy Strang (Melbourne, Australia)
 - 2022-05-05 13:30: Astrocoffee
-- 2022-04-28 11:30: [Seminar] Nathan Steinle (Birmingham UK): A Tale of Two Binaries
-- 2022-04-21 11:30: [Seminar] Stefano Della Torre (INFN)
-- 2022-04-07 11:30: [Seminar] Gabriele Brambilla (Amazon Italy)
-- 2022-03-31 11:30: [Seminar] Mike Eracleous
-- 2022-03-24 12:30: [Seminar] Elias Most (Princeton)
-- 2022-03-17 12:30: [Seminar] Stefano Andreon (INAF-Brera)
+- 2022-04-28 13:30: [Seminar] Nathan Steinle (Birmingham UK): A Tale of Two Binaries
+- 2022-04-21 13:30: [Seminar] Stefano Della Torre (INFN)
+- 2022-04-07 13:30: [Seminar] Gabriele Brambilla (Amazon Italy)
+- 2022-03-31 13:30: [Seminar] Mike Eracleous
+- 2022-03-24 13:30: [Seminar] Elias Most (Princeton)
+- 2022-03-17 13:30: [Seminar] Stefano Andreon (INAF-Brera)
 - 2022-03-14 13:30: Astrocoffee
-- 2022-03-10 12:30: [Seminar] Valentina D'Odorico
+- 2022-03-10 13:30: [Seminar] Valentina D'Odorico
 - 2022-03-07 13:30: Astrocoffee
-- 2022-03-03 12:30: [Seminar] Alejandro Benitez-Llambay
-- 2022-02-28 12:30: [Seminar] Alessandro Trani (Tokyo)
-- 2022-02-24 13:00: [Seminar] Floor Broekgaarden (Harvard)
+- 2022-03-03 13:30: [Seminar] Alejandro Benitez-Llambay
+- 2022-02-28 13:30: [Seminar] Alessandro Trani (Tokyo)
+- 2022-02-24 14:00: [Seminar] Floor Broekgaarden (Harvard)
 - 2022-02-21 13:30: Astrocoffee
-- 2022-02-17 13:00: [Seminar] Stefano Facchini (Milano Statale)
+- 2022-02-17 14:00: [Seminar] Stefano Facchini (Milano Statale)
 - 2022-02-14 11:00: Astrocoffee
-- 2022-02-11 13:00: [Special Seminar!] Sudipta Hensh (Silesian University)
-- 2022-02-10 13:00: [Seminar] Steve Fairhurst (Cardiff)
+- 2022-02-11 14:00: [Special Seminar!] Sudipta Hensh (Silesian University)
+- 2022-02-10 14:00: [Seminar] Steve Fairhurst (Cardiff)
 - 2022-02-07 11:00: Astrocoffee
-- 2022-02-03 13:00: [Seminar] Davide Poletti (Unimib): Wrestling with Cosmic Microwave Background data
+- 2022-02-03 14:00: [Seminar] Davide Poletti (Unimib): Wrestling with Cosmic Microwave Background data
 - 2022-01-31 11:00: Astrocoffee
-- 2022-01-27 13:00: [Seminar] Alessandro Nagar (Turin): Effective-one-body waveform modeling of coalescing compact binaries:  status and perspectives
+- 2022-01-27 14:00: [Seminar] Alessandro Nagar (Turin): Effective-one-body waveform modeling of coalescing compact binaries:  status and perspectives
 - 2022-01-24 11:00: Astrocoffee
-- 2022-01-20 13:00: [Seminar] Boris Goncharov (GSSI)
+- 2022-01-20 14:00: [Seminar] Boris Goncharov (GSSI)
 - 2022-01-17 11:00: Astrocoffee
-- 2022-01-13 13:00: [Seminar]  Stanislav Babak
+- 2022-01-13 14:00: [Seminar]  Stanislav Babak
 - 2022-01-10 11:00: Astrocoffee
-- 2021-12-22 13:00: [Seminars] Arianna Renzini (Caltech) and Luca Reali (JHU)
-- 2021-12-14 13:00: [Seminar] Alessandro Boselli (Environmental effects in dense environments)
+- 2021-12-22 14:00: [Seminars] Arianna Renzini (Caltech) and Luca Reali (JHU)
+- 2021-12-14 14:00: [Seminar] Alessandro Boselli (Environmental effects in dense environments)
 - 2021-12-13 11:00: Astrocoffee
-- 2021-12-09 13:00: [Seminar] Tommaso Ghigna: Measuring CMB B-modes: strategies and challenges for future experiments
-- 2021-12-02 13:00: [Seminar] Ken Ng (MIT): Search for ultralight bosons and primordial black holes with a population of binary black holes – the present and the future
+- 2021-12-09 14:00: [Seminar] Tommaso Ghigna: Measuring CMB B-modes: strategies and challenges for future experiments
+- 2021-12-02 14:00: [Seminar] Ken Ng (MIT): Search for ultralight bosons and primordial black holes with a population of binary black holes – the present and the future
 - 2021-11-29 11:00: Astrocoffee
-- 2021-11-25 13:00: The frontiers of Pulsar Timing Array, by Caterina Tiburzi, Lorenzo Speri and Nataliya Porayko)
+- 2021-11-25 14:00: The frontiers of Pulsar Timing Array, by Caterina Tiburzi, Lorenzo Speri and Nataliya Porayko)
 - 2021-11-22 11:00: Astrocoffee
-- 2021-11-18 13:00: [Seminar] Giuseppe Lodato (Milano Statale): Planet formation in the ALMA era
+- 2021-11-18 14:00: [Seminar] Giuseppe Lodato (Milano Statale): Planet formation in the ALMA era
 - 2021-11-15 11:00: Astrocoffee
-- 2021-11-11 13:00: [Seminar] CANCELLED Stefano Andreon (INAF-OA Brera): Gas-poor clusters: what kind of beasts are they?  
+- 2021-11-11 14:00: [Seminar] CANCELLED Stefano Andreon (INAF-OA Brera): Gas-poor clusters: what kind of beasts are they?  
 - 2021-11-08 11:00: Astrocoffee
-- 2021-11-04 13:00: [Seminar] Sotiria Fotopoulou: Needles in the haystack: finding active supermassive black holes in next generation imaging surveys
-- 2021-10-28 12:00: [Seminar] Sirio Belli (Harvard)
-- 2021-10-21 12:00: [Seminar] Stefano Rinaldi (Pisa): Binary Black Hole mass distribution, the non-parametric way
-- 2021-10-14 12:00: [Seminar] Martina Toscani (Milan Statale -> Toulouse): Catching black holes with tidal disruption events
+- 2021-11-04 14:00: [Seminar] Sotiria Fotopoulou: Needles in the haystack: finding active supermassive black holes in next generation imaging surveys
+- 2021-10-28 14:00: [Seminar] Sirio Belli (Harvard)
+- 2021-10-21 14:00: [Seminar] Stefano Rinaldi (Pisa): Binary Black Hole mass distribution, the non-parametric way
+- 2021-10-14 14:00: [Seminar] Martina Toscani (Milan Statale -> Toulouse): Catching black holes with tidal disruption events
 <!-- EVENTS_END -->
 
 
