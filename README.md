@@ -16,7 +16,7 @@ The bot is deployed on an external virtual machine, with the following crontab i
 0 17 * * 5 export SMTP_PASS="xxxxxxxxxxxxx"; /usr/bin/python /home/dgerosa/astroseminars_bicocca/update_schedule.py weekly > /home/dgerosa/weeklycron.log 2>&1
 ```
 
-Emails can also be triggered manually on [github](https://github.com/dgerosa/astroseminars_bicocca). Go to "Actions", select the workflow on the left, and then "Run workflow". 
+Emails can also be triggered manually on [github](https://github.com/dgerosa/astroseminars_bicocca). Go to "Actions", select the workflow on the left, and then "Run workflow". I tried running cron via Github actions, but it's not reliable.
 
 
 ## Calendar event list
