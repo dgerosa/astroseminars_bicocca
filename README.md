@@ -8,7 +8,7 @@ The script fetches data from [our shared calendar](https://calendar.google.com/c
 - `python update_schedule.py weekly`: send an email with a summary of next week's events.
 - `python update_schedule.py readme`: update the readme on this page.
 
-Emails come from a dedicated gmail account called `astrobicocca.bot@gmail.com`; an app password needs to be stored in an environment variable called `SMTP_PASS` (this should be an app password, not the  account password).
+Emails come from a dedicated gmail account called `astrobicocca.bot@gmail.com`; an app password needs to be stored in an environment variable called `SMTP_PASS` (this should be an app password, not the  account password; see [here](https://support.google.com/accounts/answer/185833?hl=en)).
 
 The bot is deployed on an external virtual machine, with the following crontab instructions:
 ```
