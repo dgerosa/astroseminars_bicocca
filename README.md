@@ -22,6 +22,8 @@ Emails can also be triggered manually on [github](https://github.com/dgerosa/ast
 ## Calendar event list
 
 <!-- EVENTS_START -->
+- 2026-05-21 13:30: [Seminar] Martin Haehnelt
+- 2026-05-11 13:30: [Seminar] Jorryt Matthee (Institute of Science and Technology Austria)
 - 2026-03-19 13:30: [Seminar] Tiago Costa
 - 2026-03-16 13:30: Seminar: Mukesh Sigh
 - 2026-03-12 13:30: [Seminar] Luna Rampinelli
@@ -120,8 +122,8 @@ Emails can also be triggered manually on [github](https://github.com/dgerosa/ast
 - 2024-06-27 13:30: [Seminar] Kevin Wolz 
 - 2024-06-20 13:30: [Seminar] Jam Sadiq
 - 2024-06-13 13:30: [Seminar] Jasbir Singh
-- 2024-06-10 13:30: Astrocoffee
 - 2024-06-10 13:30: [Seminar] Bin Ren
+- 2024-06-10 13:30: Astrocoffee
 - 2024-06-06 13:30: [Seminar] Fabrizio Arrigoni Battaia
 - 2024-06-03 13:30: [Seminar] Jia Liu
 - 2024-05-30 13:30: [DEI Session] Federica Cavezzoni
