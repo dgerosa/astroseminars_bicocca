@@ -24,12 +24,14 @@ Emails can also be triggered manually on [github](https://github.com/dgerosa/ast
 <!-- EVENTS_START -->
 - 2026-05-21 13:30: [Seminar] Martin Haehnelt
 - 2026-05-11 13:30: [Seminar] Jorryt Matthee (Institute of Science and Technology Austria)
+- 2026-04-01 14:30: [PhD defense] Alice Spadaro
 - 2026-03-19 13:30: [Seminar] Tiago Costa
 - 2026-03-16 13:30: Seminar: Mukesh Sigh
 - 2026-03-12 13:30: [Seminar] Luna Rampinelli
 - 2026-03-05 13:30: [Seminar] Daniel Thomas
-- 2026-02-19 13:30: [Seminar] Lorenzo Valbusa Dall'Armi
+- 2026-02-18 13:30: [Seminar] Lorenzo Valbusa Dall'Armi
 - 2026-02-12 13:30: [Seminar] Keita Fukushima
+- 2026-02-06 14:30: [PhD defense] Giulia Fumagalli
 - 2026-02-05 13:30: [Seminar] Jose María Ezquiaga
 - 2026-02-02 13:30: [Seminar] Domenico Logoteta
 - 2026-01-22 13:30: [Seminar] Jan Harms
