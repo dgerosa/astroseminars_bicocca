@@ -22,11 +22,12 @@ Emails can also be triggered manually on [github](https://github.com/dgerosa/ast
 ## Calendar event list
 
 <!-- EVENTS_START -->
+- 2026-06-04 13:30: Christopher Conselice
 - 2026-05-21 13:30: [Seminar] Martin Haehnelt
 - 2026-05-11 13:30: [Seminar] Jorryt Matthee (Institute of Science and Technology Austria)
 - 2026-04-01 14:30: [PhD defense] Alice Spadaro
 - 2026-03-19 13:30: [Seminar] Tiago Costa
-- 2026-03-16 13:30: Seminar: Mukesh Sigh
+- 2026-03-16 13:30: [Seminar] Mukesh Sigh
 - 2026-03-12 13:30: [Seminar] Luna Rampinelli
 - 2026-03-05 13:30: [Seminar] Daniel Thomas
 - 2026-02-26 13:30: [Seminar] Serena Valtolina
