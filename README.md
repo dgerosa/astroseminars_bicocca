@@ -29,6 +29,7 @@ Emails can also be triggered manually on [github](https://github.com/dgerosa/ast
 - 2026-03-19 13:30: [Seminar] Tiago Costa
 - 2026-03-16 13:30: [Seminar] Mukesh Sigh
 - 2026-03-12 13:30: [Seminar] Luna Rampinelli
+- 2026-03-09 13:30: [Seminar] Chiara Anselmo
 - 2026-03-05 13:30: [Seminar] Daniel Thomas
 - 2026-02-26 13:30: [Seminar] Serena Valtolina
 - 2026-02-19 14:00: [PhD defense] Fabiola Cocchiararo and Federica Fastidio
