@@ -34,6 +34,7 @@ Emails can also be triggered manually on [github](https://github.com/dgerosa/ast
 - 2026-03-12 13:30: [Seminar] Elena Maria Rossi
 - 2026-03-09 13:30: [Seminar] Chiara Anselmo
 - 2026-03-05 13:30: [Seminar] Daniel Thomas
+- 2026-03-05 10:30: [PhD defense] Fabio Ditrani
 - 2026-02-26 13:30: [Seminar] Serena Valtolina
 - 2026-02-19 14:00: [PhD defense] Fabiola Cocchiararo and Federica Fastidio
 - 2026-02-18 13:30: [Seminar] Lorenzo Valbusa Dall'Armi
@@ -131,8 +132,8 @@ Emails can also be triggered manually on [github](https://github.com/dgerosa/ast
 - 2024-06-27 13:30: [Seminar] Kevin Wolz 
 - 2024-06-20 13:30: [Seminar] Jam Sadiq
 - 2024-06-13 13:30: [Seminar] Jasbir Singh
-- 2024-06-10 13:30: Astrocoffee
 - 2024-06-10 13:30: [Seminar] Bin Ren
+- 2024-06-10 13:30: Astrocoffee
 - 2024-06-06 13:30: [Seminar] Fabrizio Arrigoni Battaia
 - 2024-06-03 13:30: [Seminar] Jia Liu
 - 2024-05-30 13:30: [DEI Session] Federica Cavezzoni
