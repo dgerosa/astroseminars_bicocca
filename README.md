@@ -22,7 +22,6 @@ Emails can also be triggered manually on [github](https://github.com/dgerosa/ast
 ## Calendar event list
 
 <!-- EVENTS_START -->
-- 2026-09-15 09:00: Visita diabetologica
 - 2026-06-15 02:00: BiCoQ Conference
 - 2026-06-04 13:30: [Seminar] Christopher Conselice
 - 2026-05-21 13:30: [Seminar] Martin Haehnelt
