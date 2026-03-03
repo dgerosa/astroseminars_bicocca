@@ -30,8 +30,9 @@ Emails can also be triggered manually on [github](https://github.com/dgerosa/ast
 - 2026-04-13 13:30: [AstroSeminar] Yaquiong Li
 - 2026-04-09 13:30: [Seminar] Aurelien Chalumeau
 - 2026-04-01 14:30: [PhD defense] Alice Spadaro
+- 2026-03-30 13:30: Seminar: John Veitch
 - 2026-03-19 13:30: [Seminar] Tiago Costa
-- 2026-03-16 13:30: [Seminar] Mukesh Sigh
+- 2026-03-16 13:30: [Seminar] Mukesh Singh
 - 2026-03-12 13:30: [Seminar] Elena Maria Rossi
 - 2026-03-09 13:30: [Seminar] Chiara Anselmo
 - 2026-03-05 13:30: [Seminar] Daniel Thomas
