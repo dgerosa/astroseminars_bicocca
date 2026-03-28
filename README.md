@@ -11,9 +11,11 @@ The script fetches data from [our shared calendar](https://calendar.google.com/c
 Emails come from a dedicated gmail account called `astrobicocca.bot@gmail.com`; an app password needs to be stored in an environment variable called `SMTP_PASS` (this should be an app password, not the  account password; see [here](https://support.google.com/accounts/answer/185833?hl=en)).
 
 The bot is deployed on an external virtual machine (right now it's on the `rogue` instance at ateneo.private.cloud.unimib.it, admin Davide Gerosa). These are the crontab instructions:
+
 ```
-0 5 * * * export SMTP_PASS="xxxxxxxxxxxxx"; /usr/bin/python /home/dgerosa/astroseminars_bicocca/update_schedule.py daily > /home/dgerosa/dailycron.log 2>&1
-0 17 * * 5 export SMTP_PASS="xxxxxxxxxxxxx"; /usr/bin/python /home/dgerosa/astroseminars_bicocca/update_schedule.py weekly > /home/dgerosa/weeklycron.log 2>&1
+0 17 * * 5 source /home/dgerosa/box/bin/activate; export SMTP_PASS="xxxx xxxx xxxx xxxx"; python /home/dgerosa/astroseminars_bicocca/update_schedule.py weekly > /home/dgerosa/cron_seminarsweekly.log 2>&1
+
+0 5 * * * source /home/dgerosa/box/bin/activate; export SMTP_PASS="xxxx xxxx xxxx xxxx"; python /home/dgerosa/astroseminars_bicocca/update_schedule.py daily > /home/dgerosa/cron_seminarsdaily.log 2>&1
 ```
 
 Emails can also be triggered manually on [github](https://github.com/dgerosa/astroseminars_bicocca). Go to "Actions", select the workflow on the left, and then "Run workflow". I tried running cron via Github actions, but it's not reliable.
