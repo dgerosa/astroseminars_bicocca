@@ -13,6 +13,8 @@ Emails come from a dedicated gmail account called `astrobicocca.bot@gmail.com`; 
 The bot is deployed on an external virtual machine (right now it's on the `rogue` instance at ateneo.private.cloud.unimib.it, admin Davide Gerosa). These are the crontab instructions:
 
 ```
+MAILTO=davide.gerosa@unimib.it
+
 0 17 * * 5 /usr/bin/bash -c 'SMTP_PASS="xxxx xxxx xxxx xxxx" /home/dgerosa/box/bin/python /home/dgerosa/astroseminars_bicocca/update_schedule.py weekly'
 
 0 5 * * * /usr/bin/bash -c 'SMTP_PASS="xxxx xxxx xxxx xxxx"" /home/dgerosa/box/bin/python /home/dgerosa/astroseminars_bicocca/update_schedule.py'
