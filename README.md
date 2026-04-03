@@ -13,9 +13,9 @@ Emails come from a dedicated gmail account called `astrobicocca.bot@gmail.com`; 
 The bot is deployed on an external virtual machine (right now it's on the `rogue` instance at ateneo.private.cloud.unimib.it, admin Davide Gerosa). These are the crontab instructions:
 
 ```
-0 17 * * 5 source /home/dgerosa/box/bin/activate; export SMTP_PASS="xxxx xxxx xxxx xxxx"; python /home/dgerosa/astroseminars_bicocca/update_schedule.py weekly > /home/dgerosa/cron_seminarsweekly.log 2>&1
+0 17 * * 5 /usr/bin/bash -c 'SMTP_PASS="xxxx xxxx xxxx xxxx" /home/dgerosa/box/bin/python /home/dgerosa/astroseminars_bicocca/update_schedule.py weekly'
 
-0 5 * * * source /home/dgerosa/box/bin/activate; export SMTP_PASS="xxxx xxxx xxxx xxxx"; python /home/dgerosa/astroseminars_bicocca/update_schedule.py daily > /home/dgerosa/cron_seminarsdaily.log 2>&1
+0 5 * * * /usr/bin/bash -c 'SMTP_PASS="xxxx xxxx xxxx xxxx"" /home/dgerosa/box/bin/python /home/dgerosa/astroseminars_bicocca/update_schedule.py'
 ```
 
 Emails can also be triggered manually on [github](https://github.com/dgerosa/astroseminars_bicocca). Go to "Actions", select the workflow on the left, and then "Run workflow". I tried running cron via Github actions, but it's not reliable.
