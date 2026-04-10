@@ -11,12 +11,12 @@ ICS_URL = "https://calendar.google.com/calendar/ical/9csetts22iqc0iduial5obme3g%
 EMAIL_FROM = "astrobicocca.bot@gmail.com"
 
 
-#EMAIL_TO = ["astroall-groups@unimib.it","astrovisitor-groups@unimib.it"]
-#EMAIL_REPLY = "astroseminars-organizers-groups@unimib.it"
+EMAIL_TO = ["astroall-groups@unimib.it","astrovisitor-groups@unimib.it"]
+EMAIL_REPLY = "astroseminars-organizers-groups@unimib.it"
 
 #Debug
-EMAIL_TO = ["davide.gerosa@unimib.it"] 
-EMAIL_REPLY = "davide.gerosa@unimib.it"
+#EMAIL_TO = ["davide.gerosa@unimib.it"] 
+#EMAIL_REPLY = "davide.gerosa@unimib.it"
 
 ROME_TZ = pytz.timezone("Europe/Rome")
 
