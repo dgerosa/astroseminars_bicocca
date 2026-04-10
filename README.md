@@ -10,7 +10,9 @@ The script fetches data from [our shared calendar](https://calendar.google.com/c
 
 Emails come from a dedicated gmail account called `astrobicocca.bot@gmail.com`; an app password needs to be stored in an environment variable called `SMTP_PASS` (this should be an app password, not the  account password; see [here](https://support.google.com/accounts/answer/185833?hl=en)).
 
-The best way to run it is via Github actions at [dgerosa/astroseminars_bicocca](https://github.com/dgerosa/astroseminars_bicocca). These are triggered on an external virtual machine (right now it's on the `rogue` instance at ateneo.private.cloud.unimib.it, admin Davide Gerosa). These are the crontab instructions:
+The best way to run it is via Github actions at [dgerosa/astroseminars_bicocca](https://github.com/dgerosa/astroseminars_bicocca). These can be triggered manually: go to "Actions", select the workflow on the left, then "Run workflow", and input weekly/daily/readme. 
+
+We're also triggering them on a fixed schedule using an external virtual machine (right now it's on the `rogue` instance at ateneo.private.cloud.unimib.it, admin Davide Gerosa). These are the crontab instructions:
 
 ```
 GITHUB_TOKEN=xxxxxxxxxxxxxxxxxxxx
@@ -19,7 +21,7 @@ GITHUB_TOKEN=xxxxxxxxxxxxxxxxxxxx
 0 6 * * * cd astroseminars_bicocca && gh workflow run astroseminars.yml -f mode=readme
 ```
 
-Emails can also be triggered manually; go to "Actions", select the workflow on the left, and then "Run workflow". I tried running cron via Github actions as well, but it's not reliable.
+I tried running cron via Github actions as well, but it's not reliable.
 
 
 ## Calendar event list
