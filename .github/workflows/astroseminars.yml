@@ -1,15 +1,17 @@
-name: Astroseminars Daily
+name: Astroseminars
 
 on:
-#  schedule:
-#    - cron: "0 0 * * *"
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "Run mode (daily | weekly | readme)"
+        required: true
 
 jobs:
-  daily-update:
+  update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # allow committing README updates
+      contents: write
     env:
       SMTP_PASS: ${{ secrets.SMTP_PASS }}
     steps:
@@ -24,6 +26,6 @@ jobs:
       - name: Install dependencies
         run: pip install requests ics pytz
 
-      - name: Run daily script and update README
+      - name: Run script
         run: |
-          python update_schedule.py daily
+          python update_schedule.py ${{ github.event.inputs.mode }}
