@@ -28,4 +28,39 @@ jobs:
 
       - name: Run script
         run: |
-          python update_schedule.py ${{ github.event.inputs.mode }}
+          python update_schedule.py ${{ github.event.inputs.mode }} | tee update_log.txt
+
+      - name: Prepare email body
+        run: |
+          set -euo pipefail
+
+          {
+            echo "Astroseminars update"
+            echo
+            echo "Repo: ${{ github.repository }}"
+            echo "Workflow: ${{ github.workflow }}"
+            echo "Run ID: ${{ github.run_id }}"
+            echo "Job: ${{ github.job }}"
+            echo "Status: ${{ job.status }}"
+            echo "Mode: ${{ github.event.inputs.mode}}"
+            echo
+            echo "=== Script output ==="
+            cat update_log.txt || true
+            echo
+            echo "=== Git diff (if any) ==="
+            git diff || true
+          } > email_body.txt
+
+
+      - name: Send email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: astrobicocca.bot@gmail.com
+          password: ${{ secrets.SMTP_PASS }}
+          subject: "[dgerosa/astroseminars_bicocca] astroseminars.yml - ${{ github.event.inputs.mode}}: ${{ job.status }}"
+          to: davide.gerosa@unimib.it
+          from: astrobicocca.bot@gmail.com
+          body: file://email_body.txt
