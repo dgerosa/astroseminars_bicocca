@@ -2,17 +2,19 @@
 
 This is a bot that sends automatic seminar announcements to the Astrophysics group at the University of Milano-Bicocca.
 
-The script fetches data from [our shared calendar](https://calendar.google.com/calendar/embed?src=9csetts22iqc0iduial5obme3g%40group.calendar.google.com&ctz=Europe%2FRome). Usage:
-
-- `python update_schedule.py daily`: check if a calendar entry is present for today, and if so, send a reminder email.
-- `python update_schedule.py weekly`: send an email with a summary of next week's events.
-- `python update_schedule.py readme`: update the readme on this page.
+The script fetches data from [our shared calendar](https://calendar.google.com/calendar/embed?src=9csetts22iqc0iduial5obme3g%40group.calendar.google.com&ctz=Europe%2FRome).
 
 Emails come from a dedicated gmail account called `astrobicocca.bot@gmail.com`; an app password needs to be stored in an environment variable called `SMTP_PASS` (this should be an app password, not the  account password; see [here](https://support.google.com/accounts/answer/185833?hl=en)).
 
-The best way to run it is via Github actions at [dgerosa/astroseminars_bicocca](https://github.com/dgerosa/astroseminars_bicocca). These can be triggered manually: go to "Actions", select the workflow on the left, then "Run workflow", and input weekly/daily/readme. 
+The script runs via Github actions at [dgerosa/astroseminars_bicocca](https://github.com/dgerosa/astroseminars_bicocca). These can be triggered manually: go to "Actions", select the Astroseminars workflow on the left, then "Run workflow", and input weekly/daily/readme. 
 
-We're also triggering them on a fixed schedule using an external virtual machine (right now it's on the `rogue` instance at ateneo.private.cloud.unimib.it, admin Davide Gerosa). These are the crontab instructions:
+Options:
+
+- `daily`: check if a calendar entry is present for today, and if so, send a reminder email.
+- `weekly`: send an email with a summary of next week's events.
+- `readme`: update the readme on this page.
+
+We're also triggering these actions on a fixed schedule using an external virtual machine (right now it's on the `rogue` instance at ateneo.private.cloud.unimib.it, admin Davide Gerosa). These are the crontab instructions:
 
 ```
 GITHUB_TOKEN=xxxxxxxxxxxxxxxxxxxx
