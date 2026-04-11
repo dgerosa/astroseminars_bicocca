@@ -6,7 +6,7 @@ The script fetches data from [our shared calendar](https://calendar.google.com/c
 
 Emails come from a dedicated gmail account called `astrobicocca.bot@gmail.com`; an app password needs to be stored in an environment variable called `SMTP_PASS` (this should be an app password, not the  account password; see [here](https://support.google.com/accounts/answer/185833?hl=en)).
 
-The script runs via Github actions at [dgerosa/astroseminars_bicocca](https://github.com/dgerosa/astroseminars_bicocca). These can be triggered manually: go to "Actions", select the Astroseminars workflow on the left, then "Run workflow", and input weekly/daily/readme. 
+The script runs via Github actions at [dgerosa/astroseminars_bicocca](https://github.com/dgerosa/astroseminars_bicocca). These can be triggered manually: go to "Actions", select the "Astroseminars" workflow on the left, then "Run workflow", and input daily/weekly/readme. 
 
 Options:
 
