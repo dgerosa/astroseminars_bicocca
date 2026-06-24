@@ -29,19 +29,25 @@ I tried running cron via Github actions as well, but it's not reliable.
 ## Calendar event list
 
 <!-- EVENTS_START -->
-- 2026-06-15 02:00: BiCoQ Conference
+- 2026-09-24 13:30: Seminar: Olmo Piana
+- 2026-07-02 13:30: [Seminar] Sofia Fatigoni
+- 2026-06-25 13:30: [Seminar] Ulrich Sperhake
 - 2026-06-11 13:30: [Seminar] Patricia Tissera
 - 2026-06-04 13:30: [Seminar] Christopher Conselice
 - 2026-05-28 13:30: [Seminar] Martin Haehnelt
+- 2026-05-26 13:30: [Double Seminar] Rei Enokiya and Savannah Gramze
+- 2026-05-21 13:30: [Seminar] Matteo Billi
+- 2026-05-18 15:00: [Seminar] Mark Devlin
 - 2026-05-14 13:30: [Seminar] Luna Rampinelli
 - 2026-05-11 13:30: [Seminar] Jorryt Matthee
-- 2026-05-07 13:30: [Seminar] Matteo Billi
+- 2026-05-07 13:30: [Seminar] Lavinia Paiella
 - 2026-05-04 13:30: [Seminar] Eileen Herwig
 - 2026-04-30 13:30: [Seminar] Federico Scali
+- 2026-04-16 13:30: [AstroSeminar/BicocQ] Alejandro Benitez Llambay
 - 2026-04-13 14:30: [Seminar] Yaquiong Li
 - 2026-04-09 13:30: [Seminar] Aurelien Chalumeau
 - 2026-04-01 14:30: [PhD defense] Alice Spadaro
-- 2026-03-30 13:30: Seminar: John Veitch
+- 2026-03-30 13:30: [Seminar] John Veitch
 - 2026-03-26 13:30: [Seminar] Tiago Costa
 - 2026-03-18 13:30: [Seminar] Arnab Dhani 
 - 2026-03-16 13:30: [Seminar] Mukesh Singh
