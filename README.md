@@ -14,7 +14,7 @@ Options:
 - `weekly`: send an email with a summary of next week's events.
 - `readme`: update the readme on this page.
 
-We're also triggering these actions on a fixed schedule using an external virtual machine (right now it's on the `redfive` head node, admins Davide Gerosa and Federico De Santi). These are the crontab instructions:
+We're also triggering these actions on a fixed schedule using an external machine (right now it's on the `redfive` head node, admins Davide Gerosa and Federico De Santi). These are the crontab instructions:
 
 ```
 GITHUB_TOKEN=xxxxxxxxxxxxxxxxxxxx
