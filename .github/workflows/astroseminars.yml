@@ -64,3 +64,13 @@ jobs:
           to: davide.gerosa@unimib.it
           from: astrobicocca.bot@gmail.com
           body: file://email_body.txt
+
+      - name: Commit README changes
+        if: github.event.inputs.mode == 'readme'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet && exit 0
+          git commit -m "Update seminar schedule"
+          git push
