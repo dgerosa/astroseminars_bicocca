@@ -29,6 +29,7 @@ I tried running cron via Github actions as well, but it's not reliable.
 ## Calendar event list
 
 <!-- EVENTS_START -->
+- 2026-11-05 13:30: [seminar] Saloni Deepak
 - 2026-09-24 13:30: Seminar: Olmo Piana
 - 2026-07-02 13:30: [Seminar] Sofia Fatigoni
 - 2026-06-25 13:30: [Seminar] Ulrich Sperhake
