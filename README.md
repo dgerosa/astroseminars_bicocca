@@ -33,6 +33,7 @@ I tried running cron via Github actions as well, but it's not reliable.
 - 2026-11-05 13:30: [seminar] Saloni Deepak
 - 2026-09-28 13:30: [Seminar] Sharon Mary Tomson
 - 2026-09-24 13:30: Seminar: Olmo Piana
+- 2026-07-30 16:30: Trip to Pozze di Bonacina Alta!
 - 2026-07-02 13:30: [Seminar] Sofia Fatigoni
 - 2026-06-25 13:30: [Seminar] Ulrich Sperhake
 - 2026-06-11 13:30: [Seminar] Patricia Tissera
