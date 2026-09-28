@@ -35,6 +35,7 @@ I tried running cron via Github actions as well, but it's not reliable.
 - 2026-11-05 13:30: [seminar] Saloni Deepak
 - 2026-10-22 13:30: [Bicoq seminar] Nick Loutrel 
 - 2026-10-21 13:30: Seminar: Leo Bianchi
+- 2026-10-12 13:30: [Seminar] Duncan Neill
 - 2026-09-28 13:30: [Seminar] Sharon Mary Tomson
 - 2026-09-24 13:30: Seminar: Olmo Piana
 - 2026-09-17 13:30: [seminar] Alexandre M. Pombo
@@ -161,8 +162,8 @@ I tried running cron via Github actions as well, but it's not reliable.
 - 2024-06-27 13:30: [Seminar] Kevin Wolz 
 - 2024-06-20 13:30: [Seminar] Jam Sadiq
 - 2024-06-13 13:30: [Seminar] Jasbir Singh
-- 2024-06-10 13:30: Astrocoffee
 - 2024-06-10 13:30: [Seminar] Bin Ren
+- 2024-06-10 13:30: Astrocoffee
 - 2024-06-06 13:30: [Seminar] Fabrizio Arrigoni Battaia
 - 2024-06-03 13:30: [Seminar] Jia Liu
 - 2024-05-30 13:30: [DEI Session] Federica Cavezzoni
