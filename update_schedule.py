@@ -126,7 +126,7 @@ if mode == "weekly":
     if events:
         body = (
             "Hi all,<br><br>"
-            "here are the astrobicocca events happening next week:<br><br><hr>"
+            "Here are the astrobicocca events happening next week. Seminars are in room U2-2016 unless specified otherwise.<br><br><hr>"
             + "<br><hr>".join([format_event(e) for e in events])
             +"<br><hr>"+footer
         )
@@ -142,7 +142,7 @@ if mode == "daily":
     if todays_events:
         body = (
             "Hi all,<br><br>"
-            "here is a reminder of the astrobicocca event(s) happening today:<br><br><hr>"
+            "Here is a reminder of the astrobicocca event(s) happening today. Seminars are in room U2-2016 unless specified otherwise.<br><br><hr>"
             + "<hr>".join([format_event(e) for e in todays_events])
             +"<hr>"+footer
         )
