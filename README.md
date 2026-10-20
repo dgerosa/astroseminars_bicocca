@@ -31,6 +31,7 @@ I tried running cron via Github actions as well, but it's not reliable.
 <!-- EVENTS_START -->
 - 2027-03-11 13:30: [seminar] Anna McLeod
 - 2027-02-18 13:30: [Seminar] Cailin Plunkett
+- 2026-11-26 14:00: [Seminar] Irene Valderrama
 - 2026-11-19 13:30: [seminar] Neil Cornish
 - 2026-11-16 13:30: [Seminar] Yuri Levin
 - 2026-11-12 13:30: [Seminar] Giorgio Mentasti
