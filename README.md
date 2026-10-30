@@ -31,7 +31,7 @@ I tried running cron via Github actions as well, but it's not reliable.
 <!-- EVENTS_START -->
 - 2027-03-11 13:30: [seminar] Anna McLeod
 - 2027-02-18 13:30: [Seminar] Cailin Plunkett
-- 2026-11-26 14:00: [Seminar] Irene Valderrama
+- 2026-11-26 13:30: [Seminar] Irene Valderrama
 - 2026-11-19 13:30: [seminar] Neil Cornish
 - 2026-11-16 13:30: [Seminar] Yuri Levin
 - 2026-11-12 13:30: [Seminar] Giorgio Mentasti
@@ -167,8 +167,8 @@ I tried running cron via Github actions as well, but it's not reliable.
 - 2024-06-27 13:30: [Seminar] Kevin Wolz 
 - 2024-06-20 13:30: [Seminar] Jam Sadiq
 - 2024-06-13 13:30: [Seminar] Jasbir Singh
-- 2024-06-10 13:30: Astrocoffee
 - 2024-06-10 13:30: [Seminar] Bin Ren
+- 2024-06-10 13:30: Astrocoffee
 - 2024-06-06 13:30: [Seminar] Fabrizio Arrigoni Battaia
 - 2024-06-03 13:30: [Seminar] Jia Liu
 - 2024-05-30 13:30: [DEI Session] Federica Cavezzoni
