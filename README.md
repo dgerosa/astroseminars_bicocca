@@ -37,6 +37,7 @@ I tried running cron via Github actions as well, but it's not reliable.
 - 2026-11-19 13:30: [seminar] Neil Cornish
 - 2026-11-16 13:30: [Seminar] Yuri Levin
 - 2026-11-12 13:30: [Seminar] Giorgio Mentasti
+- 2026-11-10 16:00: [PhD Defense] Davide Mancieri
 - 2026-11-09 13:30: [Seminar] Yassin Rany Khalil
 - 2026-11-05 13:30: [Seminar] Saloni Deepak
 - 2026-10-29 13:30: [seminar] Amedeo Romagnolo
