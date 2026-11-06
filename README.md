@@ -34,7 +34,7 @@ I tried running cron via Github actions as well, but it's not reliable.
 - 2027-02-16 14:00: PhD defense: Irene Ferranti, Matteo Boschini, Beatrice Moreschi
 - 2027-02-15 13:30: [Seminar] Isobel Romero-Shaw
 - 2026-11-26 13:30: [Seminar] Irene Valderrama
-- 2026-11-19 13:30: [seminar] Neil Cornish
+- 2026-11-19 13:30: [Seminar] Neil Cornish
 - 2026-11-16 13:30: [Seminar] Yuri Levin
 - 2026-11-12 13:30: [Seminar] Giorgio Mentasti
 - 2026-11-10 16:00: [PhD Defense] Davide Mancieri
