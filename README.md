@@ -34,9 +34,9 @@ I tried running cron via Github actions as well, but it's not reliable.
 - 2027-02-16 14:00: PhD defense: Irene Ferranti, Matteo Boschini, Beatrice Moreschi
 - 2027-02-15 13:30: [Seminar] Isobel Romero-Shaw
 - 2027-01-21 13:30: [Seminar] Michele Bosi (SISSA)
-- 2026-12-10 13:30: [Seminar] 
-- 2026-12-09 14:00: [Seminar] Professor Sir Carlos Frenk
-- 2026-12-03 13:30: [Seminar] Sara Gliorio
+- 2027-01-14 13:30: [Seminar] Sara Gliorio
+- 2026-12-10 13:30: [Seminar] Hannah Dykaar
+- 2026-12-09 14:30: [Seminar] Professor Sir Carlos Frenk
 - 2026-11-26 13:30: [Seminar] Irene Valderrama
 - 2026-11-25 13:00: [non-astro] Libero sapere, libere relazioni
 - 2026-11-19 13:30: [Seminar] Neil Cornish
